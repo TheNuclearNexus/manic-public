@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pht:pumpkin_pop"
+      }
+    }
+  },
+  "rewards": {
+    "function": "pht:crafted/pumpkin_pop"
+  }
+}

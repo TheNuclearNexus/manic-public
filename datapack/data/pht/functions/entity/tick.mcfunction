@@ -1,0 +1,1 @@
+execute if entity @s[tag=pht.necromorph] run function pht:entity/necromorph/tick

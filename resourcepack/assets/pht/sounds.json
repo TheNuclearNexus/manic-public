@@ -1,0 +1,38 @@
+{
+  "pht.ambience.pling": {
+    "category": "ambient",
+    "sounds": [
+      "pht:ambience/pling_1",
+      "pht:ambience/pling_2",
+      "pht:ambience/pling_3",
+      "pht:ambience/pling_4",
+      "pht:ambience/pling_5",
+      "pht:ambience/pling_6",
+      "pht:ambience/pling_7",
+      "pht:ambience/pling_8",
+      "pht:ambience/pling_9",
+      "pht:ambience/pling_10",
+      "pht:ambience/pling_11",
+      "pht:ambience/pling_12",
+      "pht:ambience/pling_13",
+      "pht:ambience/pling_14",
+      "pht:ambience/pling_15",
+      "pht:ambience/pling_16"
+    ]
+  },
+  "pht.entity.necromorph.hurt": {
+	"category": "hostile",
+	"subtitle": "pht.subtitle.necromorph.hurt",
+	"sounds": [
+	  "pht:entity/necromorph/hurt1",
+	  "pht:entity/necromorph/hurt2",
+	  "pht:entity/necromorph/hurt3"
+	]
+  },
+  "pht.ambience.echo": {
+	"category": "ambient",
+	"sounds": [
+	  "pht:ambience/ambience"
+	]
+  }
+}

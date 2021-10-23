@@ -1,0 +1,11 @@
+{
+   "pack":{
+      "pack_format": 8,
+      "description": [
+		{"text":"Manic","color":"#a763ff"},
+		{"text":" | ","color":"#383240"},
+		{"text":"Created by ","color":"#f6e6ff"},
+		{"text":"@Hinge","color":"#f6e6ff"}
+	  ]
+   }
+}

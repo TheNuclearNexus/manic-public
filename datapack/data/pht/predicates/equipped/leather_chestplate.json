@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "chest": {
+        "items": [
+          "minecraft:leather_chestplate"
+        ]
+      }
+    }
+  }
+}
