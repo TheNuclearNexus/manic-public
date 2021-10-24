@@ -1,4 +1,4 @@
-msg HingeDH Phantom rework loaded
+msg HingeDH Manic reloaded successfully
 
 ## Setup
 gamerule doInsomnia false
@@ -12,3 +12,6 @@ scoreboard objectives add pht.last_sleep minecraft.custom:minecraft.time_since_r
 scoreboard objectives add pht.display trigger
 
 scoreboard players set #pht.installed pht.dummy 1
+
+## Difficulty
+execute store result score #pht.difficulty pht.dummy run difficulty

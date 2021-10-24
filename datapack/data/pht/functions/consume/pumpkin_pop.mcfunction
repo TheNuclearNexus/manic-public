@@ -1,3 +1,3 @@
 advancement revoke @s only pht:consume/pumpkin_pop
-scoreboard players remove @s pht.sanity 200
-effect give @s regeneration 10
+scoreboard players remove @s pht.sanity 120
+effect give @s regeneration 15

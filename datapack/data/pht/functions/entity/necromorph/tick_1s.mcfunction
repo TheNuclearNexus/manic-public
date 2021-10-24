@@ -1,0 +1,1 @@
+data modify entity @s DrownedConversionTime set value -1

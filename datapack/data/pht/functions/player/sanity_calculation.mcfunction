@@ -16,3 +16,5 @@ execute if score @s pht.dummy matches ..6 run scoreboard players remove @s pht.s
 execute if score @s pht.dummy matches ..3 run scoreboard players remove @s pht.sanity 1
 
 execute if predicate pht:safe_light run scoreboard players add @s pht.sanity 1
+
+execute if score @s pht.last_sleep matches 72000.. run scoreboard players remove @s pht.sanity 1

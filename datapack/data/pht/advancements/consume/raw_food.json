@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "pht:player/eat_raw_food"
+    "function": "pht:consume/raw_food"
   }
 }
