@@ -7,8 +7,8 @@
       },
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:slime_ball",
+          "type": "minecraft:loot_table",
+          "name": "pht:item/ectoplasm",
           "functions": [
             {
               "function": "minecraft:apply_bonus",
@@ -16,27 +16,6 @@
               "formula": "minecraft:uniform_bonus_count",
               "parameters": {
                 "bonusMultiplier": 0.05
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360004}"
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "translate": "pht.pack.name",
-                  "color": "#a763ff",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "pht.item.ectoplasm",
-                "italic": false
               }
             }
           ]
