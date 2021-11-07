@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+  "overrides": [
+  {
+    "predicate": {
+      "custom_model_data": 8360000
+    },
+    "model": "pht:item/corpsebloom_seeds"
+  }
+  ]
+}

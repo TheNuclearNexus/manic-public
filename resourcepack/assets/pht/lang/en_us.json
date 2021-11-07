@@ -2,13 +2,15 @@
 	"pht.pack.name": "Manic",
 	"pht.pack.name.adv": " Manic           ",
 	"pht.pack.author": "@Hinge",
-	"pht.pack.version": "0.1",
+	"pht.pack.version": "0.2 snapshot 2",
 	"pht.pack.desc.1": "Author - @Hinge\n \nReworks phantoms, adds sanity mechanics,\nand adds a handful of new items.\n",
 	
-	"pht.trigger_on": "Sanity bar settings set to §l[DISPLAY ON, AUDIO ON]",
-	"pht.trigger_off": "Sanity bar settings set to §l[DISPLAY OFF, AUDIO ON]",
-	"pht.trigger_audio": "Sanity bar settings set to §l[DISPLAY OFF, AUDIO OFF]",
-	"pht.trigger_audio2": "Sanity bar settings set to §l[DISPLAY ON, AUDIO OFF]",
+	"pht.trigger_on": "Sanity bar display settings set to §l[ACTIONBAR]",
+	"pht.trigger_on_wheel": "Sanity bar display settings set to §l[WHEEL]",
+	"pht.trigger_on_large_wheel": "Sanity bar display settings set to §l[LARGE WHEEL]",
+	"pht.trigger_off": "Sanity bar display settings set to §l[OFF]",
+	"pht.trigger_audio_off": "Sanity bar audio settings set to §l[OFF]",
+	"pht.trigger_audio_on": "Sanity bar audio settings set to §l[ON]",
 	"pht.global_trigger_on": "Global sanity bar display and audio set to §l[ON]",
 	"pht.global_trigger_off": "Global sanity bar display and audio set to §l[OFF]",
 	"pht.trigger_warning": "[!] Global sanity bar display is currently set to §l[OFF]",
@@ -17,9 +19,23 @@
 	"pht.item.necromorph_spawn_egg": "Necromorph Spawn Egg",
 	"pht.subtitle.necromorph.hurt": "Necromorph hurts",
 	
+	"pht.entity.insomniac": "Insomniac",
+	"pht.subtitle.insomniac.ambient": "Insomniac cackles",
+	"pht.advancement.insomniac": "Black Market",
+	"pht.advancement.insomniac.desc": "Encounter an Insomniac",
+	
+	"pht.entity.corpsebloom": "Corpsebloom",
+	"pht.item.corpsebloom_seeds": "Corpsebloom Seeds",
+	"pht.item.corpse_sap": "Corpse Sap",
+	"pht.advancement.corpsebloom": "Plants vs. Zombies",
+	"pht.advancement.corpsebloom.desc": "Fully grow a Corpsebloom",
+	
 	"pht.item.ectoplasm": "Necroplasm",
 	"pht.item.spectre_gelatin": "Spectre Gelatin",
 	"pht.item.pumpkin_pop": "Pumpkin Pop",
 	"pht.item.rotten_apple": "Rotten Apple",
-	"pht.item.ghastly_pie": "Ghastly Pie"
+	"pht.item.ghastly_pie": "Ghastly Pie",
+	
+	"pht.item.record.respite": "potassium - respite",
+	"pht.item.record.playing_respite": "Now Playing: potassium - respite"
 }

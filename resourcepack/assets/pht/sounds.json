@@ -34,5 +34,11 @@
 	"sounds": [
 	  "pht:ambience/ambience"
 	]
+  },
+  "pht.record.respite": {
+	"category": "record",
+	"sounds": [
+	  "pht:respite"
+	]
   }
 }

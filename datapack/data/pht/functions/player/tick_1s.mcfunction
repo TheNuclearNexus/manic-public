@@ -15,8 +15,10 @@ execute if score @s pht.last_sleep matches ..20 if predicate pht:morning run fun
 
 ## Trigger
 scoreboard players enable @s pht.display
+scoreboard players enable @s pht.audio
 execute if score @s pht.display matches 1.. run function pht:player/trigger/act
+execute if score @s pht.audio matches 1.. run function pht:player/trigger/act_audio
 
 ## Display & Audio
-execute unless score @s pht.dummy3 matches 1 unless score @s pht.dummy3 matches 2 unless score #pht.display pht.dummy3 matches 1 run function pht:player/sanity_display
-execute if score @s pht.sanity matches ..2222 if predicate pht:chance/pling unless score #pht.display pht.dummy3 matches 1 unless score @s pht.dummy3 matches 2 unless score @s pht.dummy3 matches 3 run playsound pht:pht.ambience.pling ambient @s
+execute unless score #pht.display pht.dummy3 matches 1 run function pht:player/sanity_display
+execute if score @s pht.sanity matches ..2222 if predicate pht:chance/pling unless score #pht.display pht.dummy3 matches 1 unless score @s pht.dummy6 matches 1.. run playsound pht:pht.ambience.pling ambient @s

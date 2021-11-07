@@ -1,0 +1,1 @@
+execute anchored eyes if score @s pht.use_coas matches 1.. run function pht:item/use_coas

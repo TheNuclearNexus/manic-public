@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "nbt": "{pht:{id:\"music_disc_respite\"}}"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pht:item/respite/play"
+  }
+}

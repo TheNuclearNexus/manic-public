@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360004}"
+              "tag": "{CustomModelData:8360004,pht:{id:\"ectoplasm\"}}"
             },
             {
               "function": "minecraft:set_lore",

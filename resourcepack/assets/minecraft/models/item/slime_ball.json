@@ -9,6 +9,12 @@
 	{ "predicate": { "custom_model_data": 8360002 }, "model": "pht:entity/necromorph/sprint" },
 	{ "predicate": { "custom_model_data": 8360003 }, "model": "pht:entity/necromorph/sprint_hurt" },
 	{ "predicate": { "custom_model_data": 8360004 }, "model": "pht:item/ectoplasm" },
-	{ "predicate": { "custom_model_data": 8360005 }, "model": "pht:item/icon" }
+	{ "predicate": { "custom_model_data": 8360005 }, "model": "pht:item/icon" },
+	{ "predicate": { "custom_model_data": 8360006 }, "model": "pht:entity/insomniac/head" },
+	{ "predicate": { "custom_model_data": 8360007 }, "model": "pht:entity/corpsebloom/corpsebloom" },
+	{ "predicate": { "custom_model_data": 8360008 }, "model": "pht:entity/corpsebloom/happy_corpsebloom" },
+	{ "predicate": { "custom_model_data": 8360009 }, "model": "pht:entity/corpsebloom/stage_0" },
+	{ "predicate": { "custom_model_data": 8360010 }, "model": "pht:entity/corpsebloom/stage_1" },
+	{ "predicate": { "custom_model_data": 8360011 }, "model": "pht:entity/corpsebloom/snare" }
   ]
 }
