@@ -1,5 +1,5 @@
 advancement revoke @s only pht:consume/corpse_sap
-scoreboard players add @s pht.sanity 95
+scoreboard players add @s pht.sanity 120
 
 effect clear @s wither
 effect clear @s mining_fatigue

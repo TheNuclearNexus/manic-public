@@ -17,5 +17,6 @@ execute if score @s pht.dummy matches ..3 run scoreboard players remove @s pht.s
 
 execute if predicate pht:safe_light run scoreboard players add @s pht.sanity 1
 
-execute if score @s pht.last_sleep matches 72000.. run scoreboard players remove @s pht.sanity 1
+execute unless score #pht.difficulty pht.dummy matches 3 run execute if score @s pht.last_sleep matches 72000.. run scoreboard players remove @s pht.sanity 1
+execute if score #pht.difficulty pht.dummy matches 3 run function pht:player/hard_mode_sanity
 execute if score #eit eit.blood_moon matches 1 unless predicate pht:in_the_nether unless predicate pht:in_the_end run scoreboard players remove @s pht.sanity 2

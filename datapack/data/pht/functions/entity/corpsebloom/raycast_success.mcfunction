@@ -1,4 +1,4 @@
 item replace entity @s[gamemode=!creative,nbt={Inventory:[{Slot:-106b,tag:{pht:{id:"corpsebloom"}}}]},nbt=!{SelectedItem:{tag:{pht:{id:"corpsebloom"}}}}] weapon.offhand with air
 item replace entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{pht:{id:"corpsebloom"}}}}] weapon.mainhand with air
 scoreboard players reset @s pht.dummy4
-execute positioned ~ ~1 ~ run function pht:entity/corpsebloom/create
+function pht:entity/corpsebloom/create

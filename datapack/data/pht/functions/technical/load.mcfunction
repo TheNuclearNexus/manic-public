@@ -10,6 +10,7 @@ scoreboard objectives add pht.dummy5 dummy
 scoreboard objectives add pht.dummy6 dummy
 # :hollow:
 # I uh, kinda lost track what each one does.
+scoreboard objectives add pht.rotation dummy
 scoreboard objectives add pht.decay dummy
 scoreboard objectives add pht.sanity dummy
 scoreboard objectives add pht.death deathCount

@@ -22,3 +22,6 @@ execute if score @s pht.audio matches 1.. run function pht:player/trigger/act_au
 ## Display & Audio
 execute unless score #pht.display pht.dummy3 matches 1 run function pht:player/sanity_display
 execute if score @s pht.sanity matches ..2222 if predicate pht:chance/pling unless score #pht.display pht.dummy3 matches 1 unless score @s pht.dummy6 matches 1.. run playsound pht:pht.ambience.pling ambient @s
+
+## Advancement
+execute if score @s pht.sanity matches ..0 run advancement grant @s only pht:ingame/insanity

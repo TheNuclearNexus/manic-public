@@ -15,6 +15,12 @@
 	{ "predicate": { "custom_model_data": 8360008 }, "model": "pht:entity/corpsebloom/happy_corpsebloom" },
 	{ "predicate": { "custom_model_data": 8360009 }, "model": "pht:entity/corpsebloom/stage_0" },
 	{ "predicate": { "custom_model_data": 8360010 }, "model": "pht:entity/corpsebloom/stage_1" },
-	{ "predicate": { "custom_model_data": 8360011 }, "model": "pht:entity/corpsebloom/snare" }
+	{ "predicate": { "custom_model_data": 8360011 }, "model": "pht:entity/corpsebloom/snare" },
+	{ "predicate": { "custom_model_data": 8360012 }, "model": "pht:entity/insomniac/insomniac_head" },
+	{ "predicate": { "custom_model_data": 8360013 }, "model": "pht:entity/insomniac/insomniac_idle" },
+	{ "predicate": { "custom_model_data": 8360014 }, "model": "pht:entity/insomniac/insomniac_walking" },
+	{ "predicate": { "custom_model_data": 8360015 }, "model": "pht:entity/insomniac/insomniac_head_hurt" },
+	{ "predicate": { "custom_model_data": 8360016 }, "model": "pht:entity/insomniac/insomniac_idle_hurt" },
+	{ "predicate": { "custom_model_data": 8360017 }, "model": "pht:entity/insomniac/insomniac_walking_hurt" }
   ]
 }
