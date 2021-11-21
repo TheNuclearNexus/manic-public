@@ -13,3 +13,7 @@ cave_amb.wav
 https://freesound.org/people/folkman/sounds/?page=1#sound
 MUSIC BOX (collection)
 - folkman
+
+https://freesound.org/people/juskiddink/sounds/65508/
+Flute1.wav
+- juskiddink

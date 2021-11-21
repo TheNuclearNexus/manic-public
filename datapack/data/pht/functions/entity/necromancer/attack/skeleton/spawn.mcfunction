@@ -1,0 +1,1 @@
+summon skeleton ~ ~ ~ {DeathLootTable:"minecraft:empty",Health:10f,Tags:["pht.entity","global.ignore","pht.skeleton","pht.decay"],HandItems:[{id:"minecraft:iron_sword",Count:1b},{}],Attributes:[{Name:generic.max_health,Base:10}],Invulnerable:1b,NoGravity:1b,NoAI:1b}

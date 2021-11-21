@@ -11,7 +11,7 @@ execute if score @s pht.rotation matches -45..45 run data merge entity @e[sort=n
 
 tag @e[tag=pht.corpsebloom,sort=nearest,limit=1] remove pht.new_block
 
-# Switch to global.antivillager when that gets made soon enough.
-team join tcc.antivillager @e[tag=pht.corpsebloom,sort=nearest,limit=1]
+execute if score #pht.tcc pht.dummy matches 1.. run team join tcc.antivillager
+execute unless score #pht.tcc pht.dummy matches 1.. run team join pht.antivil
 
 scoreboard players reset @s pht.rotation

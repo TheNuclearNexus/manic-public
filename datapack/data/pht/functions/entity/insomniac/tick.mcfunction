@@ -2,6 +2,7 @@
 tag @s remove pht.hurt
 execute store result score @s pht.dummy run data get entity @s HurtTime
 execute if score @s pht.dummy matches 1.. run tag @s add pht.hurt
+execute if score @s pht.dummy matches 9 run playsound minecraft:entity.vindicator.hurt hostile @a
 
 ## Frames Default
 item replace entity @s weapon.mainhand with minecraft:slime_ball{CustomModelData:8360013}

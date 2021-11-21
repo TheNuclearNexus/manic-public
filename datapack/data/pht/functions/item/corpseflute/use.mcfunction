@@ -1,0 +1,1 @@
+execute if score @s pht.sanity matches 20.. unless score @s pht.flute_time matches 1.. run function pht:item/corpseflute/success

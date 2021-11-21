@@ -2,7 +2,7 @@ execute if score @s pht.sanity matches ..2222 if predicate pht:unsafe_light run 
 execute if score @s pht.sanity matches ..2222 if predicate pht:night if predicate pht:in_overworld run tag @s add pht.dummy_spawn
 execute if score @s pht.sanity matches ..2222 if predicate pht:low_height run tag @s add pht.dummy_spawn
 execute if score @s pht.sanity matches ..2222 if predicate pht:in_the_end run tag @s add pht.dummy_spawn
-execute if entity @s[tag=pht.dummy_spawn] if predicate pht:chance/bulk_spawn unless entity @e[tag=pht.decay,distance=..30] unless entity @s[gamemode=spectator] run function pht:player/spawning/spawn_init
+execute if entity @s[tag=pht.dummy_spawn] if predicate pht:chance/bulk_spawn unless entity @e[tag=pht.decay,distance=..30] unless entity @s[gamemode=spectator] unless score @s pht.safe_time matches 1.. run function pht:player/spawning/spawn_init
 execute unless score #pht.insom_delay pht.dummy matches 1.. unless entity @s[tag=pht.dummy_spawn] unless entity @s[gamemode=spectator] if predicate pht:chance/trader_spawn unless entity @e[tag=pht.insomniac,distance=..30] if score @s pht.sanity matches ..2222 run function pht:player/spawning/insomniac
 tag @s remove pht.dummy_spawn
 
@@ -10,3 +10,6 @@ execute if score @s pht.sanity matches ..2222 unless score #pht.display pht.dumm
 
 ## Pet Sanity
 execute if entity @e[type=#pht:sanity_increase,distance=..10] run scoreboard players add @s pht.sanity 3
+
+## Mansion Checks
+execute if predicate pht:in_mansion unless score #pht.mansion pht.dummy matches 1.. if predicate pht:chance/keeper_haunt run function pht:entity/keeper/locate

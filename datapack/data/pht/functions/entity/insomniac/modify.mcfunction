@@ -1,35 +1,29 @@
 tag @s add pht.found
+data remove entity @s Offers.Recipes
 
 # Guaranteed
-function pht:entity/insomniac/trade_mods/corpsebloom
-function pht:entity/insomniac/trade_mods/pumpkin_pop
+function pht:entity/insomniac/trades/buy/blight_mold
+function pht:entity/insomniac/trades/buy/pumpkin_pop
 
-execute if predicate pht:chance/insomniac/chances_rare run function pht:entity/insomniac/trade_mods/music_disc_respite
+execute if predicate pht:chance/insomniac/chances_rare run function pht:entity/insomniac/trades/buy/music_disc_respite
 
-# Get Emeralds
-execute if predicate pht:chance/insomniac/chances_rotten run data modify entity @s Offers.Recipes append value {maxUses:4,buy:{id:"minecraft:rotten_flesh",Count:10b},sell:{id:"minecraft:emerald",Count:1b}}
+# Get Moonstone
+function pht:entity/insomniac/trades/sell/rotten_flesh
+function pht:entity/insomniac/trades/sell/bone
 
-execute if predicate pht:chance/insomniac/chances_rotten run data modify entity @s Offers.Recipes append value {maxUses:8,buy:{id:"minecraft:phantom_membrane",Count:6b},sell:{id:"minecraft:emerald",Count:1b}}
-
-execute if predicate pht:chance/insomniac/chances_rotten run function pht:entity/insomniac/trade_mods/sell_ectoplasm
-
-execute if predicate pht:chance/insomniac/chances_rotten run data modify entity @s Offers.Recipes append value {maxUses:4,buy:{id:"minecraft:spider_eye",Count:8b},sell:{id:"minecraft:emerald",Count:1b}}
-
-execute if predicate pht:chance/insomniac/chances_rotten run data modify entity @s Offers.Recipes append value {maxUses:4,buy:{id:"minecraft:bone",Count:7b},sell:{id:"minecraft:emerald",Count:1b}}
-
-execute if predicate pht:chance/insomniac/chances_rotten run data modify entity @s Offers.Recipes append value {maxUses:5,buy:{id:"minecraft:gunpowder",Count:5b},sell:{id:"minecraft:emerald",Count:1b}}
+execute if predicate pht:chance/insomniac/chances_rotten run function pht:entity/insomniac/trades/sell/spider_eye
+execute if predicate pht:chance/insomniac/chances_rotten run function pht:entity/insomniac/trades/sell/gunpowder
+execute if predicate pht:chance/insomniac/chances_rotten run function pht:entity/insomniac/trades/sell/ender_pearl
+execute if predicate pht:chance/insomniac/chances_rotten run function pht:entity/insomniac/trades/sell/phantom_membrane
+execute if predicate pht:chance/insomniac/chances_rotten run function pht:entity/insomniac/trades/sell/ectoplasm
+execute if predicate pht:chance/insomniac/chances_rotten run function pht:entity/insomniac/trades/sell/reticulum
 
 # Goods
-execute if predicate pht:chance/insomniac/chances_goods run data modify entity @s Offers.Recipes append value {maxUses:3,buy:{id:"minecraft:emerald",Count:12b},sell:{id:"minecraft:mycelium",Count:1b}}
-
-execute if predicate pht:chance/insomniac/chances_goods run data modify entity @s Offers.Recipes append value {maxUses:3,buy:{id:"minecraft:emerald",Count:10b},sell:{id:"minecraft:honeycomb",Count:1b}}
-
-execute if predicate pht:chance/insomniac/chances_goods run data modify entity @s Offers.Recipes append value {maxUses:3,buy:{id:"minecraft:emerald",Count:8b},sell:{id:"minecraft:compass",Count:1b}}
-
-execute if predicate pht:chance/insomniac/chances_goods run data modify entity @s Offers.Recipes append value {maxUses:3,buy:{id:"minecraft:emerald",Count:8b},sell:{id:"minecraft:clock",Count:1b}}
-
-execute if predicate pht:chance/insomniac/chances_goods run data modify entity @s Offers.Recipes append value {maxUses:3,buy:{id:"minecraft:emerald",Count:18b},sell:{id:"minecraft:name_tag",Count:1b}}
-
-execute if predicate pht:chance/insomniac/chances_goods run data modify entity @s Offers.Recipes append value {maxUses:3,buy:{id:"minecraft:emerald",Count:20b},sell:{id:"minecraft:lodestone",Count:1b}}
-
-execute if predicate pht:chance/insomniac/chances_goods run data modify entity @s Offers.Recipes append value {maxUses:3,buy:{id:"minecraft:emerald",Count:18b},sell:{id:"minecraft:saddle",Count:1b}}
+function pht:entity/insomniac/trades/buy/emerald
+execute if predicate pht:chance/insomniac/chances_goods run function pht:entity/insomniac/trades/buy/mycelium
+execute if predicate pht:chance/insomniac/chances_goods run function pht:entity/insomniac/trades/buy/honeycomb
+execute if predicate pht:chance/insomniac/chances_goods run function pht:entity/insomniac/trades/buy/compass
+execute if predicate pht:chance/insomniac/chances_goods run function pht:entity/insomniac/trades/buy/clock
+execute if predicate pht:chance/insomniac/chances_goods run function pht:entity/insomniac/trades/buy/name_tag
+execute if predicate pht:chance/insomniac/chances_goods run function pht:entity/insomniac/trades/buy/lodestone
+execute if predicate pht:chance/insomniac/chances_goods run function pht:entity/insomniac/trades/buy/saddle

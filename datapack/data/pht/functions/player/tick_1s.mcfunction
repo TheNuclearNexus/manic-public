@@ -5,7 +5,8 @@ execute unless score @s pht.sanity matches -32767.. run scoreboard players set @
 execute if score @s pht.death matches 1.. run function pht:player/reset_death
 
 ## Sanity Calculation
-execute unless entity @s[tag=pht.sanity_lock] unless entity @s[gamemode=spectator] unless entity @s[gamemode=creative] run function pht:player/sanity_calculation
+execute unless entity @s[tag=pht.sanity_lock] unless entity @s[gamemode=spectator] unless entity @s[gamemode=creative] unless score @s pht.safe_time matches 1.. run function pht:player/sanity_calculation
+execute if score @s pht.safe_time matches 1.. run scoreboard players remove @s pht.safe_time 1
 
 execute if score @s pht.sanity matches 10001.. run scoreboard players set @s pht.sanity 10000
 execute if score @s pht.sanity matches ..-1 run scoreboard players set @s pht.sanity 0
@@ -24,4 +25,9 @@ execute unless score #pht.display pht.dummy3 matches 1 run function pht:player/s
 execute if score @s pht.sanity matches ..2222 if predicate pht:chance/pling unless score #pht.display pht.dummy3 matches 1 unless score @s pht.dummy6 matches 1.. run playsound pht:pht.ambience.pling ambient @s
 
 ## Advancement
-execute if score @s pht.sanity matches ..0 run advancement grant @s only pht:ingame/insanity
+execute if score @s pht.sanity matches ..2222 run advancement grant @s only pht:ingame/insanity
+execute if score @s pht.sanity matches ..1 run advancement grant @s only pht:ingame/zero_sanity
+execute if score @s pht.sanity matches ..2222 run advancement grant @s only pht:ingame/root
+
+## Flute
+execute if score @s pht.flute_time matches 1.. run scoreboard players remove @s pht.flute_time 1

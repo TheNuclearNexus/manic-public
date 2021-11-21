@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pht:noxious_stew"
+      }
+    }
+  },
+  "rewards": {
+    "function": "pht:crafted/noxious_stew"
+  }
+}

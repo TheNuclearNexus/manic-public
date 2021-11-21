@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:8360006}"
+    },
+    "title": {
+      "translate": "pht.advancement.keeper"
+    },
+    "description": {
+      "translate": "pht.advancement.keeper.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "pht:ingame/mansion",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"pht.keeper\"]}"
+        }
+      }
+    }
+  }
+}

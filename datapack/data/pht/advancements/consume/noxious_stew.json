@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{pht:{id:\"noxious_stew\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pht:consume/noxious_stew"
+  }
+}

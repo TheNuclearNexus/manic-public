@@ -40,5 +40,21 @@
 	"sounds": [
 	  "pht:respite"
 	]
+  },
+  "pht.item.blight_mold": {
+	"category": "blocks",
+	"subtitle": "pht.subtitle.blight_mold",
+	"sounds": [
+	  "pht:item/blight_mold"
+	]
+  },
+  "pht.item.corpseflute": {
+	"category": "blocks",
+	"subtitle": "pht.subtitle.corpseflute",
+	"sounds": [
+	  "pht:item/flute1",
+	  "pht:item/flute2",
+	  "pht:item/flute3"
+	]
   }
 }

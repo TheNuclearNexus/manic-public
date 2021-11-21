@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/repeating_command_block",
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8360000 }, "model": "pht:item/moonstone" },
+	{ "predicate": { "custom_model_data": 8360001 }, "model": "pht:item/reticulum" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glass_bottle"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"pht.corpsegourd.sappy\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pht:item/corpsegourd_sap/use_bottle"
+  }
+}

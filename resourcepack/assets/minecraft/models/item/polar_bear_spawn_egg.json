@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8360000 }, "model": "pht:item/spawn_eggs/necromorph" },
+	{ "predicate": { "custom_model_data": 8360001 }, "model": "pht:item/spawn_eggs/insomniac" }
+  ]
+}

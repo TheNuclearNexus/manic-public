@@ -2,8 +2,12 @@
 	"pht.pack.name": "Manic",
 	"pht.pack.name.adv": " Manic           ",
 	"pht.pack.author": "@Hinge",
-	"pht.pack.version": "0.2 snapshot 2",
-	"pht.pack.desc.1": "Author - @Hinge\n \nReworks phantoms, adds sanity mechanics,\nand adds a handful of new items.\n",
+	"pht.pack.version": "v0.2-snapshot-3",
+	"pht.pack.desc.1": "v0.2-snapshot-3\n \nReworks phantoms, adds sanity mechanics,\nand adds a handful of new items.\n",
+	
+	"pht.install": "Current Version: ",
+	"pht.install.desc": "Successfully installed Manic! If you have downloaded this from any website that is not Planet Minecraft, Smithed, or The Datapack Centre, the datapack was likely not uploaded there by choice. If you are lost or confused, check the Manic Wiki by clicking ",
+	"pht.install.wiki": "here.",
 	
 	"pht.trigger_on": "Sanity bar display settings set to §l[ACTIONBAR]",
 	"pht.trigger_on_wheel": "Sanity bar display settings set to §l[WHEEL]",
@@ -23,12 +27,8 @@
 	"pht.subtitle.insomniac.ambient": "Insomniac cackles",
 	"pht.advancement.insomniac": "Black Market",
 	"pht.advancement.insomniac.desc": "Encounter the Insomniac",
-	
-	"pht.entity.corpsebloom": "Corpsebloom",
-	"pht.item.corpsebloom_seeds": "Corpsebloom Seeds",
-	"pht.item.corpse_sap": "Corpse Sap",
-	"pht.advancement.corpsebloom": "Plants vs. Zombies",
-	"pht.advancement.corpsebloom.desc": "Fully grow a Corpsebloom",
+	"pht.item.moonstone": "Moonstone",
+	"pht.item.insomniac_spawn_egg": "Insomniac Spawn Egg",
 	
 	"pht.item.ectoplasm": "Necroplasm",
 	"pht.item.spectre_gelatin": "Spectre Gelatin",
@@ -40,5 +40,56 @@
 	"pht.item.record.playing_respite": "Now Playing: potassium - respite",
 	
 	"pht.advancement.low_sanity": "It's Dark in Here",
-	"pht.advancement.low_sanity.desc": "Reach minimum Sanity"
+	"pht.advancement.low_sanity.desc": "Reach low levels of Sanity",
+	
+	"pht.item.blight_mold": "Blight Mold",
+	"pht.subtitle.blight_mold": "Blight Mold fizzles",
+	"pht.advancement.kill_sapling": "Worth It",
+	"pht.advancement.kill_sapling.desc": "What is wrong with you?",
+
+	"pht.entity.corpsebloom": "Corpsebloom",
+	"pht.item.corpsebloom_seeds": "Corpsebloom Seeds",
+	"pht.item.corpse_sap": "Corpse Sap",
+	"pht.entity.corpsegourd": "Corpsegourd",
+	"pht.item.corpsegourd_seeds": "Corpsegourd Seeds",
+	"pht.advancement.gourd": "Life is Gourd",
+	"pht.advancement.gourd.desc": "Grow a Corpsegourd",
+	"pht.advancement.corpse_sap": "Fine Cadaver",
+	"pht.advancement.corpse_sap.desc": "Produce and drink a bottle of Corpse Sap",
+
+	"pht.advancement.corpsebloom": "Plants vs. Zombies",
+	"pht.advancement.corpsebloom.desc": "Fully grow a Corpsebloom",
+	
+	"pht.advancement.root": "Mania",
+	"pht.advancement.root.desc": "You've gone insane",
+	"pht.advancement.zero_sanity": "Rock Bottom",
+	"pht.advancement.zero_sanity.desc": "Reach absolute minimum Sanity",
+	
+	"pht.entity.necromancer": "Necromancer",
+	"pht.item.talisman": "Sanity Talisman",
+	"pht.entity.hex": "Hex",
+	"pht.advancement.talisman": "Life Insurance",
+	"pht.advancement.talisman.desc": "Use a Sanity Talisman",
+	
+	"pht.entity.executioner": "Executioner",
+	"pht.item.executioner_spawn_egg": "Executioner",
+	"pht.item.executioner_axe": "Haunted Steel Axe",
+	
+	"pht.block.manic_banner": "Mad Banner",
+	"pht.advancement.mansion": "A Forsaken Place",
+	"pht.advancement.mansion.desc": "Enter a Woodland Mansion",
+	
+	"pht.entity.revenant": "Revenant",
+	"pht.item.reticulum": "Reticulum",
+	
+	"pht.item.noxious_stew": "Noxious Stew",
+	
+	"pht.entity.zombee": "Zom-bee",
+	"pht.item.corpseflute": "Corpseflute",
+	"pht.subtitle.corpseflute": "Player uses Corpseflute",
+	
+	"pht.entity.keeper": "The Keeper",
+	"pht.item.nucleus": "Oozing Nucleus",
+	"pht.advancement.keeper": "Omen of a Deadman",
+	"pht.advancement.keeper.desc": "Slay the Keeper of the Woodland Mansion"
 }

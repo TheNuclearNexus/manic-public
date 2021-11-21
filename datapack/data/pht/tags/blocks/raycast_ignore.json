@@ -1,13 +1,17 @@
 {
   "values": [
+    "#minecraft:saplings",
     "#minecraft:buttons",
     "#minecraft:pressure_plates",
     "#minecraft:carpets",
     "#minecraft:flower_pots",
     "#minecraft:candles",
+    "#minecraft:signs",
     "#minecraft:wall_signs",
     "#minecraft:rails",
 	"#minecraft:flowers",
+	"#minecraft:trapdoors",
+	"#minecraft:fence_gates",
     "#pht:air",
     "minecraft:vine",
     "minecraft:torch",
@@ -45,6 +49,22 @@
     "minecraft:wall_torch",
     "minecraft:soul_wall_torch",
     "minecraft:redstone_wall_torch",
-    "minecraft:scaffolding"
+    "minecraft:scaffolding",
+	"minecraft:grass",
+	"minecraft:tall_grass",
+	"minecraft:crimson_roots",
+	"minecraft:warped_roots",
+	"minecraft:nether_sprouts",
+	"minecraft:twisting_vines",
+	"minecraft:weeping_vines",
+	"minecraft:crimson_fungus",
+	"minecraft:warped_fungus",
+	"minecraft:small_amethyst_bud",
+	"minecraft:medium_amethyst_bud",
+	"minecraft:large_amethyst_bud",
+	"minecraft:brown_mushroom",
+	"minecraft:red_mushroom",
+	"minecraft:bamboo",
+	"minecraft:sugar_cane"
   ]
 }

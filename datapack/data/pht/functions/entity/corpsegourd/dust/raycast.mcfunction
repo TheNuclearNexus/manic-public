@@ -1,0 +1,2 @@
+execute as @e[tag=pht.corpsegourd.grown,dx=0,limit=1,sort=nearest] positioned ~-0.99 ~-0.99 ~-0.99 at @s unless block ~ ~ ~ redstone_wire run function pht:entity/corpsegourd/dust/result
+execute if entity @s[distance=..6,tag=!pht.found] positioned ^ ^ ^0.1 run function pht:entity/corpsegourd/dust/raycast

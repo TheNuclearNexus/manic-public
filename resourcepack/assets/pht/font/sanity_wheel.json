@@ -38,15 +38,6 @@
     },
 	{
       "type": "bitmap",
-      "file": "pht:gui/sanity/wheel/2b.png",
-      "ascent": -33,
-      "height": 11,
-      "chars": [
-        "\ua012"
-      ]
-    },
-	{
-      "type": "bitmap",
       "file": "pht:gui/sanity/wheel/3.png",
       "ascent": -33,
       "height": 11,
@@ -97,6 +88,15 @@
       "height": 11,
       "chars": [
         "\ua008"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "pht:gui/sanity/wheel/9.png",
+      "ascent": -33,
+      "height": 11,
+      "chars": [
+        "\ua009"
       ]
     }
   ]

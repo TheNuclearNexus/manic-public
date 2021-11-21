@@ -3,6 +3,7 @@ execute if predicate pht:in_the_nether run scoreboard players remove @s pht.sani
 execute if predicate pht:in_the_end run scoreboard players remove @s pht.sanity 2
 execute if predicate pht:unsafe_light run scoreboard players remove @s pht.sanity 1
 execute if predicate pht:low_height run scoreboard players remove @s pht.sanity 1
+execute if predicate pht:in_mansion run scoreboard players remove @s pht.sanity 1
 
 execute store result score @s pht.dummy run data get entity @s foodLevel
 execute if score @s pht.dummy matches ..6 run scoreboard players remove @s pht.sanity 1

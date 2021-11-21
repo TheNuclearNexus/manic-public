@@ -7,3 +7,4 @@ execute if score #pht.difficulty pht.dummy matches 0 run scoreboard players set 
 # If you are on peaceful, why are you even playing this datapack tbh.
 
 scoreboard players reset @s pht.death
+scoreboard players reset @s pht.last_sleep
