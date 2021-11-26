@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360003,pht:{id:\"spectre_gelatin\"}}"
+              "tag": "{CustomModelData:8360002,pht:{id:\"spectre_gelatin\"}}"
             },
             {
               "function": "minecraft:set_lore",

@@ -5,3 +5,4 @@ execute as @e[tag=pht.decay] run function pht:entity/decay/tick
 ## Additional
 execute if score #pht.insom_delay pht.dummy matches 1.. run scoreboard players remove #pht.insom_delay pht.dummy 1
 execute if score #pht.mansion pht.dummy matches 1.. run scoreboard players remove #pht.mansion pht.dummy 1
+execute store result score #pht.difficulty pht.dummy run difficulty

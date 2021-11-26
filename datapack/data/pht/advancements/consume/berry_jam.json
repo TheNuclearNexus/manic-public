@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{pht:{id:\"berry_jam\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pht:consume/berry_jam"
+  }
+}

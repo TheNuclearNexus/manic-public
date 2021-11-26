@@ -8,6 +8,7 @@ scoreboard objectives remove pht.dummy6
 scoreboard objectives remove pht.rotation
 scoreboard objectives remove pht.max_sap
 scoreboard objectives remove pht.sap_timer
+scoreboard objectives remove pht.temp_sanity
 scoreboard objectives remove pht.sanity
 scoreboard objectives remove pht.death
 scoreboard objectives remove pht.decay

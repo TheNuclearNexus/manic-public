@@ -4,6 +4,7 @@ data remove entity @s Offers.Recipes
 # Guaranteed
 function pht:entity/insomniac/trades/buy/blight_mold
 function pht:entity/insomniac/trades/buy/pumpkin_pop
+function pht:entity/insomniac/trades/buy/spectre_gelatin
 
 execute if predicate pht:chance/insomniac/chances_rare run function pht:entity/insomniac/trades/buy/music_disc_respite
 

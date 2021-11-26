@@ -5,7 +5,8 @@ execute unless score @s pht.sanity matches -32767.. run scoreboard players set @
 execute if score @s pht.death matches 1.. run function pht:player/reset_death
 
 ## Sanity Calculation
-execute unless entity @s[tag=pht.sanity_lock] unless entity @s[gamemode=spectator] unless entity @s[gamemode=creative] unless score @s pht.safe_time matches 1.. run function pht:player/sanity_calculation
+execute unless entity @s[tag=pht.sanity_lock] unless entity @s[gamemode=spectator] unless entity @s[gamemode=creative] unless score @s pht.safe_time matches 1.. run function pht:player/sanity_calc_down
+execute unless entity @s[tag=pht.sanity_lock] unless entity @s[gamemode=spectator] unless entity @s[gamemode=creative] run function pht:player/sanity_calc_up
 execute if score @s pht.safe_time matches 1.. run scoreboard players remove @s pht.safe_time 1
 
 execute if score @s pht.sanity matches 10001.. run scoreboard players set @s pht.sanity 10000

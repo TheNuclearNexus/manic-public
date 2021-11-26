@@ -2,8 +2,8 @@
 	"pht.pack.name": "Manic",
 	"pht.pack.name.adv": " Manic           ",
 	"pht.pack.author": "@Hinge",
-	"pht.pack.version": "v0.2-snapshot-3",
-	"pht.pack.desc.1": "v0.2-snapshot-3\n \nReworks phantoms, adds sanity mechanics,\nand adds a handful of new items.\n",
+	"pht.pack.version": "v0.2-snapshot-3c",
+	"pht.pack.desc.1": "v0.2-snapshot-3c\n \nReworks phantoms, adds sanity mechanics,\nand adds a handful of new items.\n",
 	
 	"pht.install": "Current Version: ",
 	"pht.install.desc": "Successfully installed Manic! If you have downloaded this from any website that is not Planet Minecraft, Smithed, or The Datapack Centre, the datapack was likely not uploaded there by choice. If you are lost or confused, check the Manic Wiki by clicking ",
@@ -19,9 +19,9 @@
 	"pht.global_trigger_off": "Global sanity bar display and audio set to §l[OFF]",
 	"pht.trigger_warning": "[!] Global sanity bar display is currently set to §l[OFF]",
 	
-	"pht.entity.necromorph": "Necromorph",
-	"pht.item.necromorph_spawn_egg": "Necromorph Spawn Egg",
-	"pht.subtitle.necromorph.hurt": "Necromorph hurts",
+	"pht.entity.necromorph": "Spook",
+	"pht.item.necromorph_spawn_egg": "Spook Spawn Egg",
+	"pht.subtitle.necromorph.hurt": "Spook wails",
 	
 	"pht.entity.insomniac": "Insomniac",
 	"pht.subtitle.insomniac.ambient": "Insomniac cackles",
@@ -91,5 +91,9 @@
 	"pht.entity.keeper": "The Keeper",
 	"pht.item.nucleus": "Oozing Nucleus",
 	"pht.advancement.keeper": "Omen of a Deadman",
-	"pht.advancement.keeper.desc": "Slay the Keeper of the Woodland Mansion"
+	"pht.advancement.keeper.desc": "Slay the Keeper of the Woodland Mansion",
+	
+	"pht.item.sweet_berry_jam": "Sweet Berry Jam",
+	"pht.item.glow_berry_jam": "Glow Berry Jam",
+	"pht.item.raw_wart": "Glazed Nether Wart"
 }

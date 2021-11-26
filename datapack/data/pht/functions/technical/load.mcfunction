@@ -20,6 +20,7 @@ scoreboard objectives add pht.rotation dummy
 scoreboard objectives add pht.max_sap dummy
 scoreboard objectives add pht.sap_timer dummy
 scoreboard objectives add pht.decay dummy
+scoreboard objectives add pht.temp_sanity dummy
 scoreboard objectives add pht.sanity dummy
 scoreboard objectives add pht.death deathCount
 scoreboard objectives add pht.last_sleep minecraft.custom:minecraft.time_since_rest

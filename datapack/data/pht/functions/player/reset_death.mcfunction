@@ -8,3 +8,5 @@ execute if score #pht.difficulty pht.dummy matches 0 run scoreboard players set 
 
 scoreboard players reset @s pht.death
 scoreboard players reset @s pht.last_sleep
+scoreboard players reset @s pht.safe_time
+scoreboard players reset @s pht.flute_time

@@ -12,3 +12,9 @@ execute if entity @s[tag=pht.hex] run function pht:entity/hex/tick
 execute if entity @s[tag=pht.skeleton] unless score @s pht.dummy matches 21.. run function pht:entity/necromancer/attack/skeleton/tick
 execute if entity @s[tag=pht.zombee] run function pht:entity/zombee/tick
 execute if entity @s[tag=pht.keeper] run function pht:entity/keeper/tick
+
+## Glowing Rework
+#data remove storage pht:storage root.temp
+#data modify storage pht:storage root.temp.effects set from entity @s ActiveEffects
+#execute if data storage pht:storage root.temp.effects[{Id:24b}] unless entity @s[tag=pht.necromancer] unless entity @s[tag=pht.insomniac] unless entity @s[tag=pht.executioner] unless entity @s[type=phantom] run effect clear @s glowing
+execute unless entity @s[tag=pht.necromancer] unless entity @s[tag=pht.insomniac] unless entity @s[tag=pht.executioner] run effect clear @s glowing

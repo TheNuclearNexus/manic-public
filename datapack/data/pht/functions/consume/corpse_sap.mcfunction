@@ -1,5 +1,6 @@
 advancement revoke @s only pht:consume/corpse_sap
-scoreboard players add @s pht.sanity 120
+execute unless score @s pht.sanity matches ..1111 run scoreboard players add @s pht.sanity 120
+execute if score @s pht.sanity matches ..1111 run scoreboard players add @s pht.sanity 60
 
 effect clear @s wither
 effect clear @s mining_fatigue

@@ -3,6 +3,7 @@ execute if block ~ ~ ~ minecraft:sunflower[half=upper] run function pht:item/bli
 execute if block ~ ~ ~ minecraft:sunflower[half=lower] run function pht:item/blight_mold/sunflower/bottom
 execute if block ~ ~ ~ #pht:pumpkins run function pht:item/blight_mold/pumpkin
 execute if block ~ ~ ~ #minecraft:saplings run function pht:item/blight_mold/kill_sapling
+execute if block ~ ~ ~ #pht:bamboo run function pht:item/blight_mold/bamboo
 
 
 ## CONVERT BLOCKS

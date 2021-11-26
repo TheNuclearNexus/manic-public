@@ -9,7 +9,7 @@ tag @s remove pht.dummy_spawn
 execute if score @s pht.sanity matches ..2222 unless score #pht.display pht.dummy3 matches 1 unless score @s pht.dummy6 matches 1.. run playsound pht:pht.ambience.echo ambient @s ~ ~ ~ 100 0
 
 ## Pet Sanity
-execute if entity @e[type=#pht:sanity_increase,distance=..10] run scoreboard players add @s pht.sanity 3
+execute if entity @e[distance=..16,type=#pht:sanity_increase] run scoreboard players add @s pht.sanity 3
 
 ## Mansion Checks
-execute if predicate pht:in_mansion unless score #pht.mansion pht.dummy matches 1.. if predicate pht:chance/keeper_haunt run function pht:entity/keeper/locate
+execute if predicate pht:in_mansion unless score #pht.mansion pht.dummy matches 1.. if predicate pht:chance/keeper_haunt unless entity @e[tag=pht.keeper] run function pht:entity/keeper/locate
