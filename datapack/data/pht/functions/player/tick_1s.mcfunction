@@ -32,3 +32,7 @@ execute if score @s pht.sanity matches ..2222 run advancement grant @s only pht:
 
 ## Flute
 execute if score @s pht.flute_time matches 1.. run scoreboard players remove @s pht.flute_time 1
+
+## dumb hotfix
+execute if entity @s[team=pht.antivil] run team leave @s
+execute if entity @s[team=tcc.antivillager] run team leave @s

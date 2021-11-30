@@ -9,9 +9,8 @@ execute if score @s pht.rotation matches -135..-45 run data merge entity @e[sort
 execute if score @s pht.rotation matches 45..135 run data merge entity @e[sort=nearest,limit=1,tag=pht.new_block] {Rotation:[0.0f,0.0f]}
 execute if score @s pht.rotation matches -45..45 run data merge entity @e[sort=nearest,limit=1,tag=pht.new_block] {Rotation:[270.0f,0.0f]}
 
+execute if score #pht.tcc pht.dummy matches 1.. run team join tcc.antivillager @e[tag=pht.new_block]
+execute unless score #pht.tcc pht.dummy matches 1.. run team join pht.antivil @e[tag=pht.new_block]
 tag @e[tag=pht.corpsebloom,sort=nearest,limit=1] remove pht.new_block
-
-execute if score #pht.tcc pht.dummy matches 1.. run team join tcc.antivillager
-execute unless score #pht.tcc pht.dummy matches 1.. run team join pht.antivil
 
 scoreboard players reset @s pht.rotation
