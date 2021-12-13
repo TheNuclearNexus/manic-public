@@ -1,0 +1,1 @@
+execute if predicate pht:chance/fifth if entity @e[gamemode=!creative,gamemode=!spectator,distance=0..48] run function pht:entity/eidolon/track

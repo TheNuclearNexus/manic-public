@@ -1,0 +1,3 @@
+function pht:item/anirrum/remove_sanity
+execute if score @s pht.sanity matches ..2222 run effect give @s weakness 10 2
+execute if score @s pht.sanity matches ..2222 run effect give @s mining_fatigue 10 2

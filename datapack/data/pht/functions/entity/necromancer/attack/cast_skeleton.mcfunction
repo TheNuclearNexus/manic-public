@@ -6,3 +6,5 @@ execute positioned ~1 ~-2 ~ run function pht:entity/necromancer/attack/skeleton/
 execute if predicate pht:chance/coinflip run execute positioned ~-1 ~-2 ~ run function pht:entity/necromancer/attack/skeleton/spawn
 execute if predicate pht:chance/coinflip run execute positioned ~ ~-2 ~1 run function pht:entity/necromancer/attack/skeleton/spawn
 execute if predicate pht:chance/coinflip run execute positioned ~ ~-2 ~-1 run function pht:entity/necromancer/attack/skeleton/spawn
+
+scoreboard players remove @s pht.sanity 50

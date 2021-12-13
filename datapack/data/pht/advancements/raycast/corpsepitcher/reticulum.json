@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:repeating_command_block"
+          ],
+          "nbt": "{pht:{id:\"reticulum\"}}"
+        },
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"pht.corpsepitcher\",\"pht.pitcher.lava\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pht:entity/corpsepitcher/interact/reticulum"
+  }
+}

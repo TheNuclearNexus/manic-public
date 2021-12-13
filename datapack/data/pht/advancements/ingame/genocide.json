@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_axe",
+      "nbt": "{CustomModelData:8360000}"
+    },
+    "title": {
+      "translate": "pht.advancement.genocide"
+    },
+    "description": {
+      "translate": "pht.advancement.genocide.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pht:ingame/mansion",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

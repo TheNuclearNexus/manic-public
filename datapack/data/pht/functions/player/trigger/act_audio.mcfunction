@@ -9,3 +9,6 @@ execute unless score @s pht.dummy6 matches 1.. run tellraw @s {"translate":"pht.
 execute if score #pht.display pht.dummy3 matches 1 run tellraw @s {"translate":"pht.trigger_warning","color":"#dd2424"}
 
 scoreboard players enable @s pht.audio
+
+stopsound @s * pht:ambience.insane
+stopsound @s * pht:ambience.waning

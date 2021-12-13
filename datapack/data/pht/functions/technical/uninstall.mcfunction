@@ -1,3 +1,5 @@
+forceload remove 0 0
+
 gamerule doInsomnia true
 scoreboard objectives remove pht.dummy
 scoreboard objectives remove pht.dummy2
@@ -26,7 +28,25 @@ scoreboard objectives remove pht.bee_delay
 scoreboard objectives remove pht.bee_frame
 scoreboard objectives remove pht.keeper
 scoreboard objectives remove pht.keeper2
+scoreboard objectives remove pht.pitcher
+scoreboard objectives remove pht.creep_fuse
+scoreboard objectives remove pht.revenant
+scoreboard objectives remove pht.daylight
+scoreboard objectives remove pht.health
+scoreboard objectives remove pht.axetime
+scoreboard objectives remove pht.axekills
 
-team add pht.antivil
+scoreboard objectives remove pht.sword
+scoreboard objectives remove pht.pickaxe
+scoreboard objectives remove pht.axe
+scoreboard objectives remove pht.shovel
+scoreboard objectives remove pht.hoe
+scoreboard objectives remove pht.n.sword
+scoreboard objectives remove pht.n.pickaxe
+scoreboard objectives remove pht.n.axe
+scoreboard objectives remove pht.n.shovel
+scoreboard objectives remove pht.n.hoe
+
+team remove pht.antivil
 
 scoreboard players reset #pht.installed

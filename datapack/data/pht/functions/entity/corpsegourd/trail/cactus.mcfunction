@@ -1,0 +1,3 @@
+execute as @e[tag=pht.corpsethorn,tag=!pht.corpsethorn.satisfied,sort=nearest,limit=1,distance=..1] if entity @s[tag=pht.corpsethorn.unbloomed] run function pht:entity/corpsethorn/states/satisfied
+execute as @e[tag=pht.corpsethorn,tag=!pht.corpsethorn.satisfied,sort=nearest,limit=1,distance=..1] if entity @s[tag=pht.corpsethorn.bloomed] run function pht:entity/corpsethorn/states/blooming_satisfied
+function pht:entity/corpsegourd/trail/delete

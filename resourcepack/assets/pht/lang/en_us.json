@@ -2,8 +2,8 @@
 	"pht.pack.name": "Manic",
 	"pht.pack.name.adv": " Manic           ",
 	"pht.pack.author": "@Hinge",
-	"pht.pack.version": "v0.2-snapshot-3c",
-	"pht.pack.desc.1": "v0.2-snapshot-3c\n \nReworks phantoms, adds sanity mechanics,\nand adds a handful of new items.\n",
+	"pht.pack.version": "v0.2-snapshot-4",
+	"pht.pack.desc.1": "v0.2-snapshot-4\n \nReworks phantoms, adds sanity mechanics,\nand adds a handful of new items.\n",
 	
 	"pht.install": "Current Version: ",
 	"pht.install.desc": "Successfully installed Manic! If you have downloaded this from any website that is not Planet Minecraft, Smithed, or The Datapack Centre, the datapack was likely not uploaded there by choice. If you are lost or confused, check the Manic Wiki by clicking ",
@@ -19,9 +19,16 @@
 	"pht.global_trigger_off": "Global sanity bar display and audio set to §l[OFF]",
 	"pht.trigger_warning": "[!] Global sanity bar display is currently set to §l[OFF]",
 	
+	"pht.blindness_off": "Schizoids give blindness set to §l[OFF]",
+	"pht.blindness_on": "Schizoids give blindness set to §l[ON]",
+	
 	"pht.entity.necromorph": "Spook",
 	"pht.item.necromorph_spawn_egg": "Spook Spawn Egg",
-	"pht.subtitle.necromorph.hurt": "Spook wails",
+	"pht.subtitle.necromorph.idle": "Spook gurgles",
+	"pht.subtitle.necromorph.hurt": "Spook hurts",
+	"pht.subtitle.necromorph.death": "Spook dies",
+	"pht.advancement.kill_all_schizoids": "Ghostbuster",
+	"pht.advancement.kill_all_schizoids.desc": "Slay one of every common Schizoid",
 	
 	"pht.entity.insomniac": "Insomniac",
 	"pht.subtitle.insomniac.ambient": "Insomniac cackles",
@@ -53,12 +60,14 @@
 	"pht.entity.corpsegourd": "Corpsegourd",
 	"pht.item.corpsegourd_seeds": "Corpsegourd Seeds",
 	"pht.advancement.gourd": "Life is Gourd",
-	"pht.advancement.gourd.desc": "Grow a Corpsegourd",
+	"pht.advancement.gourd.desc": "Grow a Corpsegourd for automatic Corpse Saph collection",
 	"pht.advancement.corpse_sap": "Fine Cadaver",
 	"pht.advancement.corpse_sap.desc": "Produce and drink a bottle of Corpse Sap",
 
 	"pht.advancement.corpsebloom": "Plants vs. Zombies",
 	"pht.advancement.corpsebloom.desc": "Fully grow a Corpsebloom",
+
+	"pht.item.corpsecreep": "Corpsecreep",
 	
 	"pht.advancement.root": "Mania",
 	"pht.advancement.root.desc": "You've gone insane",
@@ -70,23 +79,41 @@
 	"pht.entity.hex": "Hex",
 	"pht.advancement.talisman": "Life Insurance",
 	"pht.advancement.talisman.desc": "Use a Sanity Talisman",
+	"pht.subtitle.talisman.on": "Talisman deposited",
+	"pht.subtitle.talisman.off": "Talisman withdrawn",
 	
 	"pht.entity.executioner": "Executioner",
 	"pht.item.executioner_spawn_egg": "Executioner",
 	"pht.item.executioner_axe": "Haunted Steel Axe",
+	"pht.subtitle.haunted_axe.start": "Haunted Axe clanks",
+	"pht.subtitle.haunted_axe.end": "Haunted Axe settles",
+	"pht.subtitle.haunted_axe.tick": "Haunted Axe kills",
+	"pht.advancement.genocide": "Leviathan Wielder",
+	"pht.advancement.genocide.desc": "Consecutively kill 15 mobs in one Haunted Steel Axe berserk",
 	
 	"pht.block.manic_banner": "Mad Banner",
 	"pht.advancement.mansion": "A Forsaken Place",
 	"pht.advancement.mansion.desc": "Enter a Woodland Mansion",
 	
 	"pht.entity.revenant": "Revenant",
+	"pht.subtitle.revenant.idle": "Revenant chokes",
+	"pht.subtitle.revenant.hurt": "Revenant hurts",
+	"pht.subtitle.revenant.death": "Revenant dies",
 	"pht.item.reticulum": "Reticulum",
+	
+	"pht.entity.eidolon": "Eidolon",
+	"pht.subtitle.eidolon.locate": "Eidolon glares",
+	"pht.subtitle.eidolon.hurt": "Eidolon hurts",
+	"pht.subtitle.eidolon.death": "Eidolon dies",
+	"pht.item.vacuole": "Vacuuole",
 	
 	"pht.item.noxious_stew": "Noxious Stew",
 	
 	"pht.entity.zombee": "Zom-bee",
 	"pht.item.corpseflute": "Corpseflute",
 	"pht.subtitle.corpseflute": "Player uses Corpseflute",
+	"pht.advancement.corpseflute": "Still Alive",
+	"pht.advancement.corpseflute.desc": "Summon nearby Zom-bees using a Corpseflute",
 	
 	"pht.entity.keeper": "The Keeper",
 	"pht.item.nucleus": "Oozing Nucleus",
@@ -95,5 +122,41 @@
 	
 	"pht.item.sweet_berry_jam": "Sweet Berry Jam",
 	"pht.item.glow_berry_jam": "Glow Berry Jam",
-	"pht.item.raw_wart": "Glazed Nether Wart"
+	"pht.item.raw_wart": "Glazed Nether Wart",
+	
+	"pht.item.anirrum_ingot": "Anirrum Ingot",
+	"pht.item.anirrum_bucket": "Molten Anirrum Bucket",
+	"pht.item.anirrum_sword": "Anirrum Sword",
+	"pht.item.anirrum_pickaxe": "Anirrum Pickaxe",
+	"pht.item.anirrum_axe": "Anirrum Axe",
+	"pht.item.anirrum_shovel": "Anirrum Shovel",
+	"pht.item.anirrum_hoe": "Anirrum Hoe",
+	"pht.advancement.anirrum": "Soulforging",
+	"pht.advancement.anirrum.desc": "Create Anirrum using a Corpsepitcher",
+	
+	"pht.entity.corpsepitcher": "Corpsepitcher",
+	"pht.item.corpsepitcher_branch": "Corpsepitcher Branch",
+	"pht.advancement.corpsepitcher": "Mean and Not Green",
+	"pht.advancement.corpsepitcher.desc": "Plant a Corpsepitcher",
+	
+	"pht.item.sweet_berry_wine": "Sweet Berry Wine",
+	"pht.item.glow_berry_wine": "Glow Berry Cider",
+	"pht.item.chorus_wine": "Chorus Wine",
+	
+	"pht.item.mundane_cheese": "Dense Cheese",
+	"pht.item.potent_cheese": "Strong Cheese",
+	"pht.item.blunt_cheese": "Bleeding Cheese",
+	"pht.item.trippy_cheese": "Twisted Cheese",
+	"pht.advancement.cheese": "It's Not Easy Being Cheesy",
+	"pht.advancement.cheese.desc": "Make Cheese using a Corpsepitcher",
+	
+	"pht.subtitle.chitter": "Chitter cackles",
+	
+	"pht.death.eaten": "%s was mauled by %s",
+	
+	"pht.entity.corpsethorn": "Corpsethorn",
+	"pht.item.corpsethorn_seeds": "Corpsethorn Tuna",
+	"pht.death.corpsethorn": "%s got a face-full of thorns",
+	"pht.advancement.corpsethorn": "Rigor Mortis",
+	"pht.advancement.corpsethorn.desc": "Create a Corpsethorn by using Blight Mold on a cactus"
 }

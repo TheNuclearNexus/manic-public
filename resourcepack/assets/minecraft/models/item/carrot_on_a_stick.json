@@ -10,6 +10,9 @@
 	{ "predicate": { "custom_model_data": 8360003 }, "model": "pht:item/sanity_talisman" },
 	{ "predicate": { "custom_model_data": 8360004 }, "model": "pht:item/sanity_talisman_on" },
 	{ "predicate": { "custom_model_data": 8360005 }, "model": "pht:item/corpseflute" },
-	{ "predicate": { "custom_model_data": 8360006 }, "model": "pht:item/nucleus" }
+	{ "predicate": { "custom_model_data": 8360006 }, "model": "pht:item/nucleus" },
+	{ "predicate": { "custom_model_data": 8360007 }, "model": "pht:item/corpsepitcher_branch" },
+	{ "predicate": { "custom_model_data": 8360008 }, "model": "pht:item/anirrum_bucket" },
+	{ "predicate": { "custom_model_data": 8360009 }, "model": "pht:item/corpsethorn_seeds" }
   ]
 }

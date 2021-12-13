@@ -1,2 +1,2 @@
-playsound pht:pht.entity.necromorph.hurt hostile @a
+playsound pht:entity.revenant.death hostile @a
 advancement revoke @s only pht:kill/revenant

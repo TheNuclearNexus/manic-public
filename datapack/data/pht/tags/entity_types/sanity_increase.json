@@ -6,6 +6,8 @@
 	"minecraft:wolf",
 	"minecraft:parrot",
 	"minecraft:fox",
-	"minecraft:axolotl"
+	"minecraft:axolotl",
+	"minecraft:iron_golem",
+	"minecraft:snow_golem"
   ]
 }

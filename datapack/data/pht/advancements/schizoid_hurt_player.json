@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "pht:player/entity_hurt_player"
+    "function": "pht:player/schizoid_hurt_player"
   }
 }

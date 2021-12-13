@@ -1,0 +1,1 @@
+execute as @p[tag=pht.interact] run function pht:entity/corpsepitcher/raycast/player

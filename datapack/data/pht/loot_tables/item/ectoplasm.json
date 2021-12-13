@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:slime_ball",
+          "name": "minecraft:repeating_command_block",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360004,pht:{id:\"ectoplasm\"}}"
+              "tag": "{CustomModelData:8360003,pht:{id:\"ectoplasm\"}}"
             },
             {
               "function": "minecraft:set_lore",
@@ -25,7 +25,8 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "pht.item.ectoplasm",
-                "italic": false
+                "italic": false,
+				"color": "white"
               }
             }
           ]

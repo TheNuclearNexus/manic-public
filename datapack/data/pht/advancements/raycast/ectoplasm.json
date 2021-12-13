@@ -5,7 +5,7 @@
       "conditions": {
         "item": {
           "items": [
-            "minecraft:slime_ball"
+            "minecraft:repeating_command_block"
           ],
           "nbt": "{pht:{id:\"ectoplasm\"}}"
         },

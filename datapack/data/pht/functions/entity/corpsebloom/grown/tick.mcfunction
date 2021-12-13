@@ -1,5 +1,5 @@
 # Observer
-execute if score @s pht.dummy4 matches 1.. run fill ~ ~ ~ ~ ~ ~ air replace stone_button
+execute if score @s pht.dummy4 matches 1.. run fill ~ ~ ~ ~ ~ ~ air replace cave_air
 execute if score @s pht.dummy4 matches 1.. run scoreboard players reset @s pht.dummy4
 
 #

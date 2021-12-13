@@ -1,0 +1,1 @@
+execute as @e[tag=pht.chitter] at @s run function pht:entity/chitter/delete

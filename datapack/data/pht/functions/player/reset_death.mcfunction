@@ -2,11 +2,15 @@ execute if score #pht.difficulty pht.dummy matches 3 run execute if score @s pht
 
 execute if score #pht.difficulty pht.dummy matches 2 run execute if score @s pht.sanity matches ..5555 run scoreboard players set @s pht.sanity 5555
 
-execute if score #pht.difficulty pht.dummy matches 1 run scoreboard players set @s pht.sanity 10000
-execute if score #pht.difficulty pht.dummy matches 0 run scoreboard players set @s pht.sanity 10000
+execute if score #pht.difficulty pht.dummy matches ..1 run scoreboard players set @s pht.sanity 9999
 # If you are on peaceful, why are you even playing this datapack tbh.
 
 scoreboard players reset @s pht.death
 scoreboard players reset @s pht.last_sleep
 scoreboard players reset @s pht.safe_time
 scoreboard players reset @s pht.flute_time
+
+stopsound @s * pht:ambience.insane
+stopsound @s * pht:ambience.waning
+
+execute if score @s pht.axetime matches 1.. run function pht:item/haunted_axe/unproc

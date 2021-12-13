@@ -1,5 +1,5 @@
 ## Initiate
-execute unless score @s pht.sanity matches -32767.. run scoreboard players set @s pht.sanity 10000
+execute unless score @s pht.sanity matches -32767.. run scoreboard players set @s pht.sanity 9999
 
 ## Death Reset
 execute if score @s pht.death matches 1.. run function pht:player/reset_death
@@ -9,7 +9,7 @@ execute unless entity @s[tag=pht.sanity_lock] unless entity @s[gamemode=spectato
 execute unless entity @s[tag=pht.sanity_lock] unless entity @s[gamemode=spectator] unless entity @s[gamemode=creative] run function pht:player/sanity_calc_up
 execute if score @s pht.safe_time matches 1.. run scoreboard players remove @s pht.safe_time 1
 
-execute if score @s pht.sanity matches 10001.. run scoreboard players set @s pht.sanity 10000
+execute if score @s pht.sanity matches 10000.. run scoreboard players set @s pht.sanity 9999
 execute if score @s pht.sanity matches ..-1 run scoreboard players set @s pht.sanity 0
 
 ## Sleep Calculation
@@ -23,7 +23,7 @@ execute if score @s pht.audio matches 1.. run function pht:player/trigger/act_au
 
 ## Display & Audio
 execute unless score #pht.display pht.dummy3 matches 1 run function pht:player/sanity_display
-execute if score @s pht.sanity matches ..2222 if predicate pht:chance/pling unless score #pht.display pht.dummy3 matches 1 unless score @s pht.dummy6 matches 1.. run playsound pht:pht.ambience.pling ambient @s
+execute if score @s pht.sanity matches ..1111 if predicate pht:chance/pling unless score @s pht.dummy6 matches 1.. run playsound pht:pht.ambience.pling ambient @s
 
 ## Advancement
 execute if score @s pht.sanity matches ..2222 run advancement grant @s only pht:ingame/insanity
@@ -33,6 +33,7 @@ execute if score @s pht.sanity matches ..2222 run advancement grant @s only pht:
 ## Flute
 execute if score @s pht.flute_time matches 1.. run scoreboard players remove @s pht.flute_time 1
 
-## dumb hotfix
-execute if entity @s[team=pht.antivil] run team leave @s
-execute if entity @s[team=tcc.antivillager] run team leave @s
+## Particles
+execute if score @s pht.safe_time matches 1.. if predicate pht:chance/coinflip run particle sneeze ~ ~0.75 ~ 0.35 0.75 0.35 0 1
+execute if score @s pht.safe_time matches 1.. if predicate pht:chance/coinflip run particle sneeze ~ ~0.75 ~ 0.35 0.75 0.35 0 1
+execute if score @s pht.safe_time matches 1.. if predicate pht:chance/coinflip run particle sneeze ~ ~0.75 ~ 0.35 0.75 0.35 0 1

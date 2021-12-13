@@ -4,6 +4,8 @@
     "#pht:pumpkins",
 	"minecraft:sunflower",
     "#minecraft:saplings",
-	"#pht:bamboo"
+	"#pht:bamboo",
+	"#pht:dripleaf",
+	"minecraft:cactus"
   ]
 }

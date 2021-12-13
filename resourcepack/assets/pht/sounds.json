@@ -29,12 +29,6 @@
 	  "pht:entity/necromorph/hurt3"
 	]
   },
-  "pht.ambience.echo": {
-	"category": "ambient",
-	"sounds": [
-	  "pht:ambience/ambience"
-	]
-  },
   "pht.record.respite": {
 	"category": "record",
 	"sounds": [
@@ -55,6 +49,112 @@
 	  "pht:item/flute1",
 	  "pht:item/flute2",
 	  "pht:item/flute3"
+	]
+  },
+  "ambience.insane": {
+	"category": "ambient",
+	"sounds": [
+	  "pht:ambience/insane/insane0",
+	  "pht:ambience/insane/insane1",
+	  "pht:ambience/insane/insane2",
+	  "pht:ambience/insane/insane3",
+	  "pht:ambience/insane/insane4",
+	  "pht:ambience/insane/insane5"
+	]
+  },
+  "ambience.waning": {
+	"category": "ambient",
+	"sounds": [
+	  "pht:ambience/waning/waning0",
+	  "pht:ambience/waning/waning1"
+	]
+  },
+  "entity.chitter": {
+	"category": "hostile",
+	"subtitle": "pht.subtitle.chitter",
+	"sounds": [
+	  "pht:entity/chitter/chitter"
+	]
+  },
+  "entity.revenant.idle": {
+	"category": "hostile",
+	"subtitle": "pht.subtitle.revenant.idle",
+	"sounds": [
+	  "pht:entity/revenant/idle0",
+	  "pht:entity/revenant/idle1"
+	]
+  },
+  "entity.revenant.hurt": {
+	"category": "hostile",
+	"subtitle": "pht.subtitle.revenant.hurt",
+	"sounds": [
+	  "pht:entity/revenant/hurt0",
+	  "pht:entity/revenant/hurt1"
+	]
+  },
+  "entity.revenant.death": {
+	"category": "hostile",
+	"subtitle": "pht.subtitle.revenant.death",
+	"sounds": [
+	  "pht:entity/revenant/death"
+	]
+  },
+  "entity.eidolon.hurt": {
+	"category": "hostile",
+	"subtitle": "pht.subtitle.eidolon.hurt",
+	"sounds": [
+	  "pht:entity/eidolon/hurt0",
+	  "pht:entity/eidolon/hurt1",
+	  "pht:entity/eidolon/hurt2"
+	]
+  },
+  "entity.eidolon.locate": {
+	"category": "hostile",
+	"subtitle": "pht.subtitle.eidolon.locate",
+	"sounds": [
+	  "pht:entity/eidolon/locate"
+	]
+  },
+  "entity.eidolon.death": {
+	"category": "hostile",
+	"subtitle": "pht.subtitle.eidolon.death",
+	"sounds": [
+	  "pht:entity/eidolon/death"
+	]
+  },
+  "item.talisman.on": {
+	"category": "player",
+	"subtitle": "pht.subtitle.talisman.on",
+	"sounds": [
+	  "pht:item/talisman_on"
+	]
+  },
+  "item.talisman.off": {
+	"category": "player",
+	"subtitle": "pht.subtitle.talisman.off",
+	"sounds": [
+	  "pht:item/talisman_off"
+	]
+  },
+  "item.haunted_axe.start": {
+	"category": "player",
+	"subtitle": "pht.subtitle.haunted_axe.start",
+	"sounds": [
+	  "pht:item/haunted_axe_start"
+	]
+  },
+  "item.haunted_axe.end": {
+	"category": "player",
+	"subtitle": "pht.subtitle.haunted_axe.end",
+	"sounds": [
+	  "pht:item/haunted_axe_end"
+	]
+  },
+  "item.haunted_axe.tick": {
+	"category": "player",
+	"subtitle": "pht.subtitle.haunted_axe.tick",
+	"sounds": [
+	  "pht:item/haunted_axe_tick"
 	]
   }
 }

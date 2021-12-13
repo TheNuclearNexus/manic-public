@@ -1,2 +1,2 @@
-execute unless entity @e[tag=pht.snareable,distance=..16] if entity @e[type=#pht:undead,distance=..16,tag=!global.ignore] run function pht:entity/zombee/ai/undead
+execute unless entity @e[tag=pht.snareable,distance=..16] if entity @e[type=#pht:undead,distance=..16,tag=!smithed.entity] run function pht:entity/zombee/ai/undead
 execute if entity @e[tag=pht.snareable,distance=..16] run function pht:entity/zombee/ai/snareable

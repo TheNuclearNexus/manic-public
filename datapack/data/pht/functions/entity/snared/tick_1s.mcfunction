@@ -5,3 +5,4 @@ playsound minecraft:entity.generic.death hostile @a
 
 execute if score @s pht.dummy5 matches 6.. unless entity @s[type=bee] run kill @s
 execute if entity @s[type=bee] if score @s pht.dummy5 matches 6.. run function pht:entity/zombee/spawn
+execute if entity @s[type=creeper] if score @s pht.dummy5 matches 6.. run function pht:entity/corpsecreep/spawn

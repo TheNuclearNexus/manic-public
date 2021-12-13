@@ -17,4 +17,4 @@ execute if predicate pht:chance/coinflip unless score @s pht.keeper2 matches 1..
 
 execute unless predicate pht:in_mansion run function pht:entity/keeper/despawn
 
-execute if entity @e[type=#pht:illagers,distance=..2.5,tag=!global.ignore] run function pht:entity/keeper/ai/eat_illager
+execute if entity @e[type=#pht:illagers,distance=..2.5,tag=!smithed.entity] run function pht:entity/keeper/ai/eat_illager

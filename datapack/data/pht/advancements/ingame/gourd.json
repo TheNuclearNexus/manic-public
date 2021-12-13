@@ -15,7 +15,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "pht:ingame/insomniac",
+  "parent": "pht:ingame/corpsebloom",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

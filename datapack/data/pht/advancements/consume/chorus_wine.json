@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{pht:{id:\"chorus_wine\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pht:consume/chorus_wine"
+  }
+}
