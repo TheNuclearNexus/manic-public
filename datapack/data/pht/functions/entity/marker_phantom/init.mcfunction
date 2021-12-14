@@ -1,1 +1,0 @@
-execute unless entity @a[tag=pht.gelatin,distance=..48] if predicate pht:daytime run kill @s

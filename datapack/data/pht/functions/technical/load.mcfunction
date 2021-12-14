@@ -45,6 +45,7 @@ scoreboard objectives add pht.daylight dummy
 scoreboard objectives add pht.health dummy
 scoreboard objectives add pht.axetime dummy
 scoreboard objectives add pht.axekills dummy
+scoreboard objectives add pht.entitycount dummy
 
 # Anirrum
 scoreboard objectives add pht.sword minecraft.used:minecraft.diamond_sword

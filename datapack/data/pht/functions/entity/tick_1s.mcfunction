@@ -1,8 +1,4 @@
-execute if entity @s[tag=pht.marker] run function pht:entity/marker/tick
-execute if entity @s[tag=pht.marker_phantom] run function pht:entity/marker_phantom/tick
 execute if entity @s[tag=pht.marker_insomniac] run function pht:entity/marker_insomniac/tick
-execute if entity @s[tag=pht.marker_rev] run function pht:entity/marker_revenant/tick
-execute if entity @s[tag=pht.marker_eido] run function pht:entity/marker_eidolon/tick
 execute if entity @s[tag=pht.necromorph] run function pht:entity/necromorph/tick_1s
 execute if entity @s[tag=pht.revenant] run function pht:entity/revenant/tick_1s
 execute if entity @s[tag=pht.eidolon] run function pht:entity/eidolon/tick_1s

@@ -18,6 +18,7 @@ execute if entity @s[tag=pht.corpsepitcher] run function pht:entity/corpsepitche
 execute if entity @s[tag=pht.corpsecreep] run function pht:entity/corpsecreep/tick
 execute if entity @s[tag=pht.chitter] run function pht:entity/chitter/tick
 execute if entity @s[tag=pht.corpsethorn] run function pht:entity/corpsethorn/tick
+execute if entity @s[tag=pht.spawn_marker] run function pht:entity/spawn_marker/tick
 
 ## Glowing Rework
 data remove storage pht:storage root.temp

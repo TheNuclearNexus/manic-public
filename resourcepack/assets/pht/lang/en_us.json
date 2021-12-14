@@ -2,8 +2,8 @@
 	"pht.pack.name": "Manic",
 	"pht.pack.name.adv": " Manic           ",
 	"pht.pack.author": "@Hinge",
-	"pht.pack.version": "v0.2-snapshot-4",
-	"pht.pack.desc.1": "v0.2-snapshot-4\n \nReworks phantoms, adds sanity mechanics,\nand adds a handful of new items.\n",
+	"pht.pack.version": "v0.2-snapshot-4b",
+	"pht.pack.desc.1": "v0.2-snapshot-4b\n \nReworks phantoms, adds sanity mechanics,\nand adds a handful of new items.\n",
 	
 	"pht.install": "Current Version: ",
 	"pht.install.desc": "Successfully installed Manic! If you have downloaded this from any website that is not Planet Minecraft, Smithed, or The Datapack Centre, the datapack was likely not uploaded there by choice. If you are lost or confused, check the Manic Wiki by clicking ",
@@ -60,14 +60,14 @@
 	"pht.entity.corpsegourd": "Corpsegourd",
 	"pht.item.corpsegourd_seeds": "Corpsegourd Seeds",
 	"pht.advancement.gourd": "Life is Gourd",
-	"pht.advancement.gourd.desc": "Grow a Corpsegourd for automatic Corpse Saph collection",
+	"pht.advancement.gourd.desc": "Create a Corpsegourd by using Blight Mold on a Pumpkin or Melon",
 	"pht.advancement.corpse_sap": "Fine Cadaver",
 	"pht.advancement.corpse_sap.desc": "Produce and drink a bottle of Corpse Sap",
 
 	"pht.advancement.corpsebloom": "Plants vs. Zombies",
 	"pht.advancement.corpsebloom.desc": "Fully grow a Corpsebloom",
 
-	"pht.item.corpsecreep": "Corpsecreep",
+	"pht.entity.corpsecreep": "Corpsecreep",
 	
 	"pht.advancement.root": "Mania",
 	"pht.advancement.root.desc": "You've gone insane",
@@ -88,7 +88,7 @@
 	"pht.subtitle.haunted_axe.start": "Haunted Axe clanks",
 	"pht.subtitle.haunted_axe.end": "Haunted Axe settles",
 	"pht.subtitle.haunted_axe.tick": "Haunted Axe kills",
-	"pht.advancement.genocide": "Leviathan Wielder",
+	"pht.advancement.genocide": "Leviathan",
 	"pht.advancement.genocide.desc": "Consecutively kill 15 mobs in one Haunted Steel Axe berserk",
 	
 	"pht.block.manic_banner": "Mad Banner",
@@ -156,7 +156,7 @@
 	
 	"pht.entity.corpsethorn": "Corpsethorn",
 	"pht.item.corpsethorn_seeds": "Corpsethorn Tuna",
-	"pht.death.corpsethorn": "%s got a face-full of thorns",
+	"pht.death.corpsethorn": "%s was pricked by death",
 	"pht.advancement.corpsethorn": "Rigor Mortis",
 	"pht.advancement.corpsethorn.desc": "Create a Corpsethorn by using Blight Mold on a cactus"
 }

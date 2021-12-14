@@ -35,6 +35,7 @@ scoreboard objectives remove pht.daylight
 scoreboard objectives remove pht.health
 scoreboard objectives remove pht.axetime
 scoreboard objectives remove pht.axekills
+scoreboard objectives remove pht.entitycount
 
 scoreboard objectives remove pht.sword
 scoreboard objectives remove pht.pickaxe
