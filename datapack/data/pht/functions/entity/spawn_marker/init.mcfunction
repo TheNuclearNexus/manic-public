@@ -8,8 +8,9 @@ execute if predicate pht:range/-64_to_0 run spreadplayers ~ ~ 1 20 under 0 false
 
 
 # Phantoms
-execute if predicate pht:in_overworld unless predicate pht:underground if predicate pht:chance/coinflip run tag @s add pht.is_phantom
-execute if entity @s[tag=pht.is_phantom] run tp @s ~ ~30 ~
+execute store result score @s pht.entitycount if blocks ~ ~ ~ ~ 319 ~ ~ ~ ~ masked
+execute if predicate pht:in_overworld unless score @s pht.entitycount matches 1.. if predicate pht:chance/coinflip run tag @s add pht.is_phantom
+execute if entity @s[tag=pht.is_phantom] at @s run tp @s ~ ~24 ~
 
 # Detect EIT Blood Moons
 execute if score #eit eit.blood_moon matches 1.. run tag @s add pht.blood_moon
