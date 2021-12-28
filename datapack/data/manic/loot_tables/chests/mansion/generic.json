@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "manic:chests/mansion/corpse"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "manic:chests/mansion/treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "name": "manic:chests/mansion/supply"
+        }
+      ]
+    }
+  ]
+}

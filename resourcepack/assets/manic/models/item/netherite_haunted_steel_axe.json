@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "manic:item/netherite_haunted_steel_axe"
+  }
+}

@@ -1,2 +1,0 @@
-execute as @e[tag=pht.corpsethorn.unbloomed,dx=0,limit=1,sort=nearest] positioned ~-0.99 ~-0.99 ~-0.99 at @s run function pht:entity/corpsethorn/bonemeal/result
-execute if entity @s[distance=..6,tag=!pht.found] positioned ^ ^ ^0.1 run function pht:entity/corpsethorn/bonemeal/raycast

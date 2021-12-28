@@ -1,1 +1,0 @@
-execute as @a[tag=pht.chorus_sfx] at @s run function pht:item/chorus_wine/tp

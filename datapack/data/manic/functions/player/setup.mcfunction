@@ -1,0 +1,1 @@
+scoreboard players set @s manic.sanity 10000

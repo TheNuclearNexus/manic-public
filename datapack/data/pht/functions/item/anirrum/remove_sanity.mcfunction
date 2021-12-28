@@ -1,1 +1,0 @@
-scoreboard players remove @s[gamemode=!creative] pht.sanity 3

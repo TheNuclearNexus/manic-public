@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+          "nbt": "{Tags:[\"manic.keeper\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:entity/keeper/death"
+  }
+}

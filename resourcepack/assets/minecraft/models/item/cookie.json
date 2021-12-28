@@ -4,9 +4,9 @@
     "layer0": "minecraft:item/cookie"
   },
   "overrides": [
-	{ "predicate": { "custom_model_data": 8360000 }, "model": "pht:item/pumpkin_pop" },
-	{ "predicate": { "custom_model_data": 8360001 }, "model": "pht:item/rotten_apple" },
-	{ "predicate": { "custom_model_data": 8360002 }, "model": "pht:item/spectre_gelatin" },
-	{ "predicate": { "custom_model_data": 8360003 }, "model": "pht:item/raw_wart" }
+	{ "predicate": { "custom_model_data": 8360000 }, "model": "manic:item/pumpkin_pop" },
+	{ "predicate": { "custom_model_data": 8360001 }, "model": "manic:item/rotten_apple" },
+	{ "predicate": { "custom_model_data": 8360002 }, "model": "manic:item/spectre_gelatin" },
+	{ "predicate": { "custom_model_data": 8360003 }, "model": "manic:item/raw_wart" }
   ]
 }

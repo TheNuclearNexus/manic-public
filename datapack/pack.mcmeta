@@ -2,10 +2,10 @@
    "pack":{
       "pack_format": 8,
       "description": [
-		{"text":"Manic","color":"#a763ff"},
+		{"text":"Manic","color":"#82339b"},
 		{"text":" | ","color":"#383240"},
 		{"text":"v","color":"#f6e6ff"},
-		{"text":"0.2-snapshot-4c","color":"#f6e6ff"}
+		{"text":"0.2-snapshot-5","color":"#f6e6ff"}
 	  ]
    }
 }

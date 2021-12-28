@@ -1,0 +1,1 @@
+execute as @p[tag=manic.interact] run function manic:entity/podium/raycast/player

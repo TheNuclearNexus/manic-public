@@ -1,0 +1,1 @@
+execute as @a[tag=manic.chorus_sfx] at @s run function manic:item/chorus_gin/tp

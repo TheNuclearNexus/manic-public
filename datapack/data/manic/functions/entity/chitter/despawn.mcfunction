@@ -1,0 +1,1 @@
+execute as @e[tag=manic.chitter] at @s run function manic:entity/chitter/delete

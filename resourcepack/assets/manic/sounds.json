@@ -1,0 +1,469 @@
+{
+  "manic.ambience.pling": {
+    "category": "ambient",
+    "sounds": [
+      "manic:ambience/pling_1",
+      "manic:ambience/pling_2",
+      "manic:ambience/pling_3",
+      "manic:ambience/pling_4",
+      "manic:ambience/pling_5",
+      "manic:ambience/pling_6"
+    ]
+  },
+  "entity.spook.ambient": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.spook.idle",
+	"sounds": [
+	  "manic:entity/spook/idle_1",
+	  "manic:entity/spook/idle_2",
+	  "manic:entity/spook/idle_3"
+	]
+  },
+  "entity.spook.hurt": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.spook.hurt",
+	"sounds": [
+	  "manic:entity/spook/hurt_1",
+	  "manic:entity/spook/hurt_2",
+	  "manic:entity/spook/hurt_3"
+	]
+  },
+  "entity.spook.death": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.spook.death",
+	"sounds": [
+	  "manic:entity/spook/death_1",
+	  "manic:entity/spook/death_2"
+	]
+  },
+  "manic.record.respite": {
+	"category": "record",
+	"sounds": [
+	  "manic:respite"
+	]
+  },
+  "manic.item.blight_mold": {
+	"category": "blocks",
+	"subtitle": "manic.subtitle.blight_mold",
+	"sounds": [
+	  "manic:item/blight_mold"
+	]
+  },
+  "manic.item.corpseflute": {
+	"category": "blocks",
+	"subtitle": "manic.subtitle.corpseflute",
+	"sounds": [
+	  "manic:item/flute1",
+	  "manic:item/flute2",
+	  "manic:item/flute3"
+	]
+  },
+  "ambience.insane": {
+	"category": "ambient",
+	"sounds": [
+	  "manic:ambience/insane/insane0",
+	  "manic:ambience/insane/insane1",
+	  "manic:ambience/insane/insane2",
+	  "manic:ambience/insane/insane3",
+	  "manic:ambience/insane/insane4",
+	  "manic:ambience/insane/insane5"
+	]
+  },
+  "ambience.waning": {
+	"category": "ambient",
+	"sounds": [
+	  "manic:ambience/waning/waning0",
+	  "manic:ambience/waning/waning1"
+	]
+  },
+  "entity.chitter": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.chitter",
+	"sounds": [
+	  "manic:entity/chitter/chitter"
+	]
+  },
+  "entity.chitter.poof": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.chitter.poof",
+	"sounds": [
+	  "manic:entity/chitter/vanish"
+	]
+  },
+  "entity.revenant.idle": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.revenant.idle",
+	"sounds": [
+	  "manic:entity/revenant/idle0",
+	  "manic:entity/revenant/idle1"
+	]
+  },
+  "entity.revenant.hurt": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.revenant.hurt",
+	"sounds": [
+	  "manic:entity/revenant/hurt0",
+	  "manic:entity/revenant/hurt1"
+	]
+  },
+  "entity.revenant.death": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.revenant.death",
+	"sounds": [
+	  "manic:entity/revenant/death"
+	]
+  },
+  "entity.revenant.dash": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.revenant.dash",
+	"sounds": [
+	  "manic:entity/revenant/dash1",
+	  "manic:entity/revenant/dash2"
+	]
+  },
+  "entity.eidolon.hurt": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.eidolon.hurt",
+	"sounds": [
+	  "manic:entity/eidolon/hurt0",
+	  "manic:entity/eidolon/hurt1",
+	  "manic:entity/eidolon/hurt2"
+	]
+  },
+  "entity.eidolon.locate": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.eidolon.locate",
+	"sounds": [
+	  "manic:entity/eidolon/locate"
+	]
+  },
+  "entity.eidolon.death": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.eidolon.death",
+	"sounds": [
+	  "manic:entity/eidolon/death"
+	]
+  },
+  "entity.eidolon.teleport": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.eidolon.teleport",
+	"sounds": [
+	  "minecraft:mob/endermen/portal",
+	  "minecraft:mob/endermen/portal2"
+	]
+  },
+  "entity.eidolon.cast": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.eidolon.cast",
+	"sounds": [
+	  "manic:entity/eidolon/cast_1",
+	  "manic:entity/eidolon/cast_2"
+	]
+  },
+  "item.talisman.on": {
+	"category": "player",
+	"subtitle": "manic.subtitle.talisman.on",
+	"sounds": [
+	  "manic:item/talisman_on"
+	]
+  },
+  "item.talisman.off": {
+	"category": "player",
+	"subtitle": "manic.subtitle.talisman.off",
+	"sounds": [
+	  "manic:item/talisman_off"
+	]
+  },
+  "item.haunted_axe.start": {
+	"category": "player",
+	"subtitle": "manic.subtitle.haunted_axe.start",
+	"sounds": [
+	  "manic:item/haunted_axe_start"
+	]
+  },
+  "item.haunted_axe.end": {
+	"category": "player",
+	"subtitle": "manic.subtitle.haunted_axe.end",
+	"sounds": [
+	  "manic:item/haunted_axe_end"
+	]
+  },
+  "item.haunted_axe.tick": {
+	"category": "player",
+	"subtitle": "manic.subtitle.haunted_axe.tick",
+	"sounds": [
+	  "manic:item/haunted_axe_tick"
+	]
+  },
+  "entity.podium.clink": {
+	"category": "block",
+	"subtitle": "manic.subtitle.podium.clink",
+	"sounds": [
+	  "manic:entity/podium/clink"
+	]
+  },
+  "entity.corpsebloom.fill": {
+	"category": "block",
+	"subtitle": "manic.subtitle.corpsebloom.fill",
+	"sounds": [
+	  "manic:entity/corpseflora/ding_1",
+	  "manic:entity/corpseflora/ding_2"
+	]
+  },
+  "entity.corpsegourd.fill": {
+	"category": "block",
+	"subtitle": "manic.subtitle.corpsegourd.fill",
+	"sounds": [
+	  "manic:entity/corpseflora/ding_1",
+	  "manic:entity/corpseflora/ding_2"
+	]
+  },
+  "entity.corpsethorn.fill": {
+	"category": "block",
+	"subtitle": "manic.subtitle.corpsethorn.fill",
+	"sounds": [
+	  "manic:entity/corpseflora/ding_1",
+	  "manic:entity/corpseflora/ding_2"
+	]
+  },
+  "entity.snare.ambient": {
+	"category": "block",
+	"subtitle": "manic.subtitle.snare.ambient",
+	"sounds": [
+	  "manic:entity/corpseflora/bind"
+	]
+  },
+  "entity.snare.kill": {
+	"category": "block",
+	"subtitle": "manic.subtitle.snare.kill",
+	"sounds": [
+	  "manic:entity/corpseflora/kill_1",
+	  "manic:entity/corpseflora/kill_2"
+	]
+  },
+  "entity.spawn_marker.spawn": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.spawn_marker.spawn",
+	"sounds": [
+	  "manic:entity/spawn_marker/spawn"
+	]
+  },
+  "entity.spawn_marker.end": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.spawn_marker.end",
+	"sounds": [
+	  "manic:entity/spawn_marker/end"
+	]
+  },
+  "entity.schizoid.despawn": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.schizoid.despawn",
+	"sounds": [
+	  "manic:entity/schizoid/despawn"
+	]
+  },
+  "entity.mirage.swim": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.mirage.swim",
+	"sounds": [
+	  "minecraft:entity/fish/swim1",
+	  "minecraft:entity/fish/swim2",
+	  "minecraft:entity/fish/swim3",
+	  "minecraft:entity/fish/swim4",
+	  "minecraft:entity/fish/swim5",
+	  "minecraft:entity/fish/swim6",
+	  "minecraft:entity/fish/swim7"
+	]
+  },
+  "entity.mirage.hurt": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.mirage.hurt",
+	"sounds": [
+	  "manic:entity/mirage/hurt_1",
+	  "manic:entity/mirage/hurt_2"
+	]
+  },
+  "entity.mirage.death": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.mirage.death",
+	"sounds": [
+	  "manic:entity/mirage/death"
+	]
+  },
+  "entity.mirage.dash": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.mirage.dash",
+	"sounds": [
+	  "manic:entity/mirage/dash_1",
+	  "manic:entity/mirage/dash_2"
+	]
+  },
+  "entity.boat.break": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.boat.break",
+	"sounds": [
+	  "manic:entity/mirage/break_boat"
+	]
+  },
+  "entity.monk.idle": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.monk.ambient",
+	"sounds": [
+	  "manic:entity/monk/idle1",
+	  "manic:entity/monk/idle2",
+	  "manic:entity/monk/idle3"
+	]
+  },
+  "entity.monk.hurt": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.monk.hurt",
+	"sounds": [
+	  "manic:entity/monk/hurt1",
+	  "manic:entity/monk/hurt2"
+	]
+  },
+  "entity.monk.death": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.monk.death",
+	"sounds": [
+	  "manic:entity/monk/death"
+	]
+  },
+  "entity.monk.observe": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.monk.observe",
+	"sounds": [
+	  "manic:entity/monk/observe1",
+	  "manic:entity/monk/observe2"
+	]
+  },
+  "entity.monk.celebrate": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.monk.celebrate",
+	"sounds": [
+	  "manic:entity/monk/celebrate1",
+	  "manic:entity/monk/celebrate2",
+	  "manic:entity/monk/celebrate3"
+	]
+  },
+  "entity.monk.cringe": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.monk.cringe",
+	"sounds": [
+	  "manic:entity/monk/cringe1",
+	  "manic:entity/monk/cringe2"
+	]
+  },
+  "entity.ray.sanity_cast": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.ray.sanity_cast",
+	"sounds": [
+	  "manic:entity/ray/sanity_cast"
+	]
+  },
+  "entity.ray.insanity_cast": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.ray.insanity_cast",
+	"sounds": [
+	  "manic:entity/ray/insanity_cast"
+	]
+  },
+  "item.ichor.shoot": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.ichor_shoot",
+	"sounds": [
+	  "manic:item/ichor_shoot"
+	]
+  },
+  "entity.schizoid.screech": {
+	"category": "neutral",
+	"subtitle": "manic.subtitle.schizoid.screech",
+	"sounds": [
+	  "manic:entity/schizoid/screech_1",
+	  "manic:entity/schizoid/screech_2"
+	]
+  },
+  "entity.keeper.idle": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.idle",
+	"sounds": [
+	  "manic:entity/keeper/idle_1",
+	  "manic:entity/keeper/idle_2",
+	  "manic:entity/keeper/idle_3"
+	]
+  },
+  "entity.keeper.anger": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.anger",
+	"sounds": [
+	  "manic:entity/keeper/anger_1",
+	  "manic:entity/keeper/anger_2",
+	  "manic:entity/keeper/anger_3"
+	]
+  },
+  "entity.keeper.hurt": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.hurt",
+	"sounds": [
+	  "manic:entity/keeper/hurt_1",
+	  "manic:entity/keeper/hurt_2",
+	  "manic:entity/keeper/hurt_3"
+	]
+  },
+  "entity.keeper.death": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.death",
+	"sounds": [
+	  "manic:entity/keeper/death"
+	]
+  },
+  "entity.keeper.spawn": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.spawn",
+	"sounds": [
+	  "manic:entity/keeper/spawn"
+	]
+  },
+  "entity.keeper.scream": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.scream",
+	"sounds": [
+	  "manic:entity/keeper/scream"
+	]
+  },
+  "entity.keeper.prepare_slam": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.prepare_slam",
+	"sounds": [
+	  "manic:entity/keeper/prepare_slam"
+	]
+  },
+  "entity.keeper.slam": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.slam",
+	"sounds": [
+	  "manic:entity/keeper/slam"
+	]
+  },
+  "entity.keeper.prepare_charge": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.prepare_charge",
+	"sounds": [
+	  "manic:entity/keeper/prepare_charge"
+	]
+  },
+  "entity.keeper.charge": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.charge",
+	"sounds": [
+	  "manic:entity/keeper/charge"
+	]
+  },
+  "entity.keeper.stun": {
+	"category": "hostile",
+	"subtitle": "manic.subtitle.keeper.stun",
+	"sounds": [
+	  "manic:entity/keeper/stun"
+	]
+  }
+}

@@ -1,2 +1,0 @@
-execute as @e[tag=pht.corpsegourd.sappy,dx=0,limit=1,sort=nearest] positioned ~-0.99 ~-0.99 ~-0.99 at @s[dx=0] run function pht:item/corpsegourd_sap/success
-execute if entity @s[distance=..6,tag=!pht.found] positioned ^ ^ ^0.01 run function pht:item/corpsegourd_sap/raycast

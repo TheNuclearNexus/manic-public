@@ -1,3 +1,0 @@
-playsound minecraft:block.sculk_sensor.clicking block @a ~ ~ ~ 1.75 0.75
-summon armor_stand ~ ~ ~ {Fire:1000000,HasVisualFire:0b,ArmorItems:[{},{},{},{id:"minecraft:slime_ball",Count:1b,tag:{CustomModelData:8360026}}],Marker:1b,Invisible:1b,Tags:["pht.eidolon_trail","pht.entity"]}
-execute as @e[tag=pht.eidolon_trail,sort=nearest,limit=1] at @s run tp @s ~ ~ ~ facing entity @p[gamemode=!creative,gamemode=!spectator]

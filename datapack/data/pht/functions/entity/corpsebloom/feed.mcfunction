@@ -1,1 +1,0 @@
-execute if predicate pht:chance/corpsebloom_age_chance run function pht:entity/corpsebloom/age

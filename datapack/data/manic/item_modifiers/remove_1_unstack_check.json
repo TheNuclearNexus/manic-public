@@ -1,0 +1,21 @@
+{
+    "function": "minecraft:set_count",
+    "count": -1,
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "count": 1
+              }
+            }
+          }
+        }
+      }
+    ]
+  }

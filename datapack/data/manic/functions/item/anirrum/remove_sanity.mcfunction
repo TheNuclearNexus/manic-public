@@ -1,0 +1,1 @@
+scoreboard players remove @s[gamemode=!creative] manic.sanity 3

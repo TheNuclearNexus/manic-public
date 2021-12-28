@@ -1,0 +1,9 @@
+loot give @s loot manic:item/spawn_eggs/spook
+loot give @s loot manic:item/spawn_eggs/mirage
+loot give @s loot manic:item/spawn_eggs/revenant
+loot give @s loot manic:item/spawn_eggs/eidolon
+loot give @s loot manic:item/spawn_eggs/insomniac
+loot give @s loot manic:item/spawn_eggs/corpsecreep
+loot give @s loot manic:item/spawn_eggs/zombee
+loot give @s loot manic:item/spawn_eggs/necromancer
+loot give @s loot manic:item/spawn_eggs/hex

@@ -1,8 +1,9 @@
 {
  "values":[
-   "pht:technical/load",
-   "pht:technical/schedule_1s",
-   "pht:technical/schedule_10s",
-   "pht:technical/schedule_10s"
+   "manic:technical/load",
+   "manic:technical/schedule_1s",
+   "manic:technical/schedule_10s",
+   "manic:technical/schedule_10s",
+   "manic:animations/load"
   ]
 }

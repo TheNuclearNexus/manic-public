@@ -4,6 +4,6 @@
     "layer0": "minecraft:item/netherite_hoe"
   },
   "overrides": [
-	{ "predicate": { "custom_model_data": 8360000 }, "model": "pht:item/nethirrum_hoe" }
+	{ "predicate": { "custom_model_data": 8360000 }, "model": "manic:item/nethirrum_hoe" }
   ]
 }

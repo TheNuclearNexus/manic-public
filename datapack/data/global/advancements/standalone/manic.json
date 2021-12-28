@@ -5,12 +5,12 @@
       "nbt": "{CustomModelData:8360005}"
     },
     "title": {
-      "translate": "pht.pack.name.adv",
-      "color": "#a763ff",
+      "translate": "manic.pack.name.adv",
+      "color": "#82339b",
       "bold": true
     },
     "description": {
-      "translate": "pht.pack.desc.1",
+      "translate": "manic.pack.desc.1",
       "color": "#f6e6ff"
     },
     "show_toast": false,

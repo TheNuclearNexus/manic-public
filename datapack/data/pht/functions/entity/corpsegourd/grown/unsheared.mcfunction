@@ -1,3 +1,0 @@
-execute unless entity @s[tag=pht.corpsegourd.sappy] if entity @e[tag=pht.corpsebloom.sappy,distance=..1] run execute as @e[tag=pht.corpsebloom.sappy,sort=random,limit=1,distance=..1] at @s run function pht:entity/corpsegourd/grown/absorb_sap
-
-execute if block ~ ~ ~ redstone_wire if predicate pht:chance/coinflip run particle minecraft:dust_color_transition 1 0 0 1 1 1 1 ~ ~0.25 ~ 0.5 0.5 0.5 0 3 force @a

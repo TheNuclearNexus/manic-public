@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{manic:{id:\"corpse_sap\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:consume/corpse_sap"
+  }
+}

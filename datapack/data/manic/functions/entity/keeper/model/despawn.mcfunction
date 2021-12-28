@@ -1,0 +1,1 @@
+execute at @s run function manic:animations/keeper/delete

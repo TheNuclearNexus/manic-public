@@ -4,9 +4,9 @@
     "layer0": "minecraft:item/bread"
   },
   "overrides": [
-	{ "predicate": { "custom_model_data": 8360000 }, "model": "pht:item/mundane_cheese" },
-	{ "predicate": { "custom_model_data": 8360001 }, "model": "pht:item/potent_cheese" },
-	{ "predicate": { "custom_model_data": 8360002 }, "model": "pht:item/blunt_cheese" },
-	{ "predicate": { "custom_model_data": 8360003 }, "model": "pht:item/trippy_cheese" }
+	{ "predicate": { "custom_model_data": 8360000 }, "model": "manic:item/dense_cheese" },
+	{ "predicate": { "custom_model_data": 8360001 }, "model": "manic:item/strong_cheese" },
+	{ "predicate": { "custom_model_data": 8360002 }, "model": "manic:item/bleeding_cheese" },
+	{ "predicate": { "custom_model_data": 8360003 }, "model": "manic:item/twisted_cheese" }
   ]
 }

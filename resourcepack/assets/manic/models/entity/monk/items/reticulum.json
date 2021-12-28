@@ -1,0 +1,6 @@
+{
+  "parent": "manic:entity/monk/item_base",
+  "textures": {
+    "1": "manic:item/reticulum"
+  }
+}
